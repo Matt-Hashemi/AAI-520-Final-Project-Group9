@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-# AAI-520-Final-Project-Group9
-Final Project for the AAI-520 Course in the **Master of Applied Artificial Intelligence** Program, University of San Diego
-=======
 # MS-AAI
-## AAI-501 Final Project - Group 5
+## AAI-520 Final Project - Group 9
 
-### Final Project for the AAI-501 Course in the **Master of Applied Artificial Intelligence** Program
+### Final Project for the AAI-520 Course in the **Master of Applied Artificial Intelligence** Program
 ### University of San Diego
 
 ---
@@ -156,4 +152,3 @@ Ensure that LaTeX is installed on your system for successful PDF generation.
 - If conversion fails, check your LaTeX installation and dependencies.
 
 ---
->>>>>>> a0ed978 (Initial commit with modified project)
