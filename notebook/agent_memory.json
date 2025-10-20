@@ -1,0 +1,2949 @@
+{
+  "short_term": [
+    {
+      "ticker": "AAPL",
+      "type": "research_plan",
+      "content": {
+        "ticker": "AAPL",
+        "timestamp": "2025-10-20T08:43:59.808779",
+        "historical_analyses": 0,
+        "steps": [
+          {
+            "step": 1,
+            "task": "Collect Financial Data",
+            "description": "Retrieve stock prices, financial ratios, and key metrics",
+            "tools": [
+              "yfinance API"
+            ],
+            "output": "Price history, P/E ratio, market cap, dividend yield"
+          },
+          {
+            "step": 2,
+            "task": "Gather Economic Context",
+            "description": "Fetch macroeconomic indicators affecting markets",
+            "tools": [
+              "FRED API"
+            ],
+            "output": "GDP growth, inflation rate, interest rates"
+          },
+          {
+            "step": 3,
+            "task": "Analyze News Sentiment",
+            "description": "Process recent news articles and extract sentiment",
+            "tools": [
+              "News dataset",
+              "NLP processing"
+            ],
+            "output": "Sentiment scores, key themes, news summary"
+          },
+          {
+            "step": 4,
+            "task": "Perform Fundamental Analysis",
+            "description": "Evaluate company fundamentals and valuation metrics",
+            "tools": [
+              "Financial data",
+              "Ratio analysis"
+            ],
+            "output": "Valuation assessment, financial health score"
+          },
+          {
+            "step": 5,
+            "task": "Synthesize Insights",
+            "description": "Combine all analyses into comprehensive report",
+            "tools": [
+              "All previous outputs"
+            ],
+            "output": "Investment recommendation with confidence score"
+          },
+          {
+            "step": 6,
+            "task": "Self-Evaluate Quality",
+            "description": "Assess analysis quality and identify improvements",
+            "tools": [
+              "Evaluation criteria",
+              "Historical performance"
+            ],
+            "output": "Quality score, improvement suggestions"
+          }
+        ]
+      },
+      "timestamp": "2025-10-20T08:43:59.808785"
+    },
+    {
+      "ticker": "AAPL",
+      "type": "stock_data",
+      "content": {
+        "ticker": "AAPL",
+        "current_price": 263.4849853515625,
+        "price_change_pct": 24.145343587669345,
+        "avg_volume": 54200229.93846154,
+        "market_cap": 3910264684544,
+        "pe_ratio": 31.70734,
+        "dividend_yield": 41.0,
+        "price_history": [
+          {
+            "Close": 212.23912048339844,
+            "Volume": 51377400
+          },
+          {
+            "Close": 214.15695190429688,
+            "Volume": 46404100
+          },
+          {
+            "Close": 213.9072265625,
+            "Volume": 46989300
+          },
+          {
+            "Close": 213.51766967773438,
+            "Volume": 46022600
+          },
+          {
+            "Close": 213.63754272460938,
+            "Volume": 40268800
+          },
+          {
+            "Close": 213.80735778808594,
+            "Volume": 37858000
+          },
+          {
+            "Close": 211.03050231933594,
+            "Volume": 51411700
+          },
+          {
+            "Close": 208.81301879882812,
+            "Volume": 45512500
+          },
+          {
+            "Close": 207.33470153808594,
+            "Volume": 80698400
+          },
+          {
+            "Close": 202.1505889892578,
+            "Volume": 104434500
+          },
+          {
+            "Close": 203.11949157714844,
+            "Volume": 75109300
+          },
+          {
+            "Close": 202.68995666503906,
+            "Volume": 44155100
+          },
+          {
+            "Close": 213.0082550048828,
+            "Volume": 108483100
+          },
+          {
+            "Close": 219.7805633544922,
+            "Volume": 90224800
+          },
+          {
+            "Close": 229.0900115966797,
+            "Volume": 113854000
+          },
+          {
+            "Close": 227.17999267578125,
+            "Volume": 61806100
+          },
+          {
+            "Close": 229.64999389648438,
+            "Volume": 55626200
+          },
+          {
+            "Close": 233.3300018310547,
+            "Volume": 69878500
+          },
+          {
+            "Close": 232.77999877929688,
+            "Volume": 51916300
+          },
+          {
+            "Close": 231.58999633789062,
+            "Volume": 56038700
+          },
+          {
+            "Close": 230.88999938964844,
+            "Volume": 37476200
+          },
+          {
+            "Close": 230.55999755859375,
+            "Volume": 39402600
+          },
+          {
+            "Close": 226.00999450683594,
+            "Volume": 42263900
+          },
+          {
+            "Close": 224.89999389648438,
+            "Volume": 30621200
+          },
+          {
+            "Close": 227.75999450683594,
+            "Volume": 42477800
+          },
+          {
+            "Close": 227.16000366210938,
+            "Volume": 30983100
+          },
+          {
+            "Close": 229.30999755859375,
+            "Volume": 54575100
+          },
+          {
+            "Close": 230.49000549316406,
+            "Volume": 31259500
+          },
+          {
+            "Close": 232.55999755859375,
+            "Volume": 38074700
+          },
+          {
+            "Close": 232.13999938964844,
+            "Volume": 39418400
+          },
+          {
+            "Close": 229.72000122070312,
+            "Volume": 44075600
+          },
+          {
+            "Close": 238.47000122070312,
+            "Volume": 66427800
+          },
+          {
+            "Close": 239.77999877929688,
+            "Volume": 47549400
+          },
+          {
+            "Close": 239.69000244140625,
+            "Volume": 54870400
+          },
+          {
+            "Close": 237.8800048828125,
+            "Volume": 48999500
+          },
+          {
+            "Close": 234.35000610351562,
+            "Volume": 66313900
+          },
+          {
+            "Close": 226.7899932861328,
+            "Volume": 83440800
+          },
+          {
+            "Close": 230.02999877929688,
+            "Volume": 50208600
+          },
+          {
+            "Close": 234.07000732421875,
+            "Volume": 55824200
+          },
+          {
+            "Close": 236.6999969482422,
+            "Volume": 42699500
+          },
+          {
+            "Close": 238.14999389648438,
+            "Volume": 63421100
+          },
+          {
+            "Close": 238.99000549316406,
+            "Volume": 46508000
+          },
+          {
+            "Close": 237.8800048828125,
+            "Volume": 44249600
+          },
+          {
+            "Close": 245.5,
+            "Volume": 163741300
+          },
+          {
+            "Close": 256.0799865722656,
+            "Volume": 105517400
+          },
+          {
+            "Close": 254.42999267578125,
+            "Volume": 60275200
+          },
+          {
+            "Close": 252.30999755859375,
+            "Volume": 42303700
+          },
+          {
+            "Close": 256.8699951171875,
+            "Volume": 55202100
+          },
+          {
+            "Close": 255.4600067138672,
+            "Volume": 46076300
+          },
+          {
+            "Close": 254.42999267578125,
+            "Volume": 40127700
+          },
+          {
+            "Close": 254.6300048828125,
+            "Volume": 37704300
+          },
+          {
+            "Close": 255.4499969482422,
+            "Volume": 48713900
+          },
+          {
+            "Close": 257.1300048828125,
+            "Volume": 42630200
+          },
+          {
+            "Close": 258.0199890136719,
+            "Volume": 49155600
+          },
+          {
+            "Close": 256.69000244140625,
+            "Volume": 44664100
+          },
+          {
+            "Close": 256.4800109863281,
+            "Volume": 31955800
+          },
+          {
+            "Close": 258.05999755859375,
+            "Volume": 36496900
+          },
+          {
+            "Close": 254.0399932861328,
+            "Volume": 38322000
+          },
+          {
+            "Close": 245.27000427246094,
+            "Volume": 61999100
+          },
+          {
+            "Close": 247.66000366210938,
+            "Volume": 38142900
+          },
+          {
+            "Close": 247.77000427246094,
+            "Volume": 35478000
+          },
+          {
+            "Close": 249.33999633789062,
+            "Volume": 33893600
+          },
+          {
+            "Close": 247.4499969482422,
+            "Volume": 39777000
+          },
+          {
+            "Close": 252.2899932861328,
+            "Volume": 48876500
+          },
+          {
+            "Close": 263.4849853515625,
+            "Volume": 42751046
+          }
+        ],
+        "company_name": "Apple Inc."
+      },
+      "timestamp": "2025-10-20T08:44:01.380121"
+    },
+    {
+      "ticker": "MACRO",
+      "type": "economic_data",
+      "content": {
+        "gdp_growth": 2.4,
+        "inflation_rate": 3.2,
+        "interest_rate": 5.25,
+        "unemployment_rate": 3.8,
+        "timestamp": "2025-10-20T08:44:01.380494"
+      },
+      "timestamp": "2025-10-20T08:44:01.380497"
+    },
+    {
+      "ticker": "AAPL",
+      "type": "news_summary",
+      "content": {
+        "step": "summarize",
+        "ticker": "AAPL",
+        "total_articles": 0,
+        "avg_sentiment": NaN,
+        "sentiment_trend": "Neutral",
+        "dominant_category": "General",
+        "key_themes": [
+          "earnings",
+          "growth",
+          "market"
+        ],
+        "date_range": "NaT to NaT",
+        "detailed_sentiment": {
+          "positive_articles": 0,
+          "negative_articles": 0,
+          "neutral_articles": 0
+        }
+      },
+      "timestamp": "2025-10-20T08:44:01.551311"
+    },
+    {
+      "ticker": "AAPL",
+      "type": "routed_analysis",
+      "content": {
+        "ticker": "AAPL",
+        "timestamp": "2025-10-20T08:44:01.584945",
+        "analyses": [
+          {
+            "agent": "EarningsAnalyzer",
+            "ticker": "AAPL",
+            "valuation": "Overvalued",
+            "pe_ratio": 31.70734,
+            "score": 0.4,
+            "analysis": "AAPL appears overvalued with P/E ratio of 31.70734"
+          },
+          {
+            "agent": "NewsAnalyzer",
+            "ticker": "AAPL",
+            "sentiment_score": NaN,
+            "trend": "Neutral",
+            "score": 0.1,
+            "analysis": "Strong negative news momentum"
+          },
+          {
+            "agent": "MarketAnalyzer",
+            "ticker": "AAPL",
+            "momentum": "Strong upward momentum",
+            "price_change_3m": 24.145343587669345,
+            "score": 0.85,
+            "economic_context": "High interest rates may limit growth",
+            "analysis": "Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth"
+          }
+        ],
+        "aggregate_score": 0.45,
+        "recommendation": "SELL"
+      },
+      "timestamp": "2025-10-20T08:44:01.585009"
+    },
+    {
+      "ticker": "AAPL",
+      "type": "optimized_analysis",
+      "content": {
+        "ticker": "AAPL",
+        "final_analysis": {
+          "ticker": "AAPL",
+          "iteration": 3,
+          "recommendation": "SELL",
+          "aggregate_score": 0.45,
+          "content": "Comprehensive Investment Analysis for AAPL:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $263.48\n\u2022 P/E Ratio: 31.70734\n\u2022 Market Cap: 3910264684544\n\u2022 3-Month Return: 24.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: AAPL appears overvalued with P/E ratio of 31.70734\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+        },
+        "final_evaluation": {
+          "overall_score": 1.0,
+          "dimension_scores": {
+            "completeness": 1.0,
+            "data_support": 1.0,
+            "clarity": 1.0,
+            "actionability": 1.0,
+            "risk_assessment": 1.0
+          },
+          "feedback": [],
+          "quality_level": "High",
+          "timestamp": "2025-10-20T08:44:01.599456"
+        },
+        "quality_history": [
+          {
+            "overall_score": 0.54,
+            "dimension_scores": {
+              "completeness": 0.0,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 0.28,
+              "risk_assessment": 0.3
+            },
+            "feedback": [
+              "Analysis should include valuation, sentiment, and momentum aspects",
+              "Expand reasoning and provide more context",
+              "Include risk factors and potential concerns"
+            ],
+            "quality_level": "Low",
+            "timestamp": "2025-10-20T08:44:01.599266"
+          },
+          {
+            "overall_score": 0.66,
+            "dimension_scores": {
+              "completeness": 0.33,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 0.46,
+              "risk_assessment": 0.3
+            },
+            "feedback": [
+              "Analysis should include valuation, sentiment, and momentum aspects",
+              "Expand reasoning and provide more context",
+              "Include risk factors and potential concerns"
+            ],
+            "quality_level": "Medium",
+            "timestamp": "2025-10-20T08:44:01.599342"
+          },
+          {
+            "overall_score": 1.0,
+            "dimension_scores": {
+              "completeness": 1.0,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 1.0,
+              "risk_assessment": 1.0
+            },
+            "feedback": [],
+            "quality_level": "High",
+            "timestamp": "2025-10-20T08:44:01.599456"
+          }
+        ],
+        "iterations": 3,
+        "converged": true
+      },
+      "timestamp": "2025-10-20T08:44:01.599478"
+    },
+    {
+      "ticker": "AAPL",
+      "type": "final_report",
+      "content": {
+        "ticker": "AAPL",
+        "company_name": "Apple Inc.",
+        "generated_at": "2025-10-20 08:44:01",
+        "recommendation": "SELL",
+        "confidence_score": 0.45,
+        "executive_summary": {
+          "recommendation": "SELL",
+          "price_target_rationale": "Based on 0 news articles and fundamental analysis",
+          "key_drivers": [
+            "Neutral news sentiment (nan)",
+            "3-month price momentum: 24.1%",
+            "Valuation: P/E ratio of 31.70734"
+          ]
+        },
+        "financial_metrics": {
+          "current_price": 263.4849853515625,
+          "market_cap": 3910264684544,
+          "pe_ratio": 31.70734,
+          "dividend_yield": 41.0,
+          "three_month_return": 24.145343587669345
+        },
+        "sentiment_analysis": {
+          "overall_sentiment": "Neutral",
+          "sentiment_score": NaN,
+          "articles_analyzed": 0,
+          "positive_articles": 0,
+          "negative_articles": 0,
+          "key_themes": [
+            "earnings",
+            "growth",
+            "market"
+          ]
+        },
+        "specialist_insights": [
+          {
+            "specialist": "EarningsAnalyzer",
+            "finding": "AAPL appears overvalued with P/E ratio of 31.70734",
+            "confidence": 0.4
+          },
+          {
+            "specialist": "NewsAnalyzer",
+            "finding": "Strong negative news momentum",
+            "confidence": 0.1
+          },
+          {
+            "specialist": "MarketAnalyzer",
+            "finding": "Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth",
+            "confidence": 0.85
+          }
+        ],
+        "quality_metrics": {
+          "analysis_quality_score": 1.0,
+          "iterations_to_converge": 3,
+          "quality_level": "High"
+        },
+        "risk_factors": [
+          "Market conditions: Inflation at 3.2%, rates at 5.25%",
+          "News sentiment volatility may impact short-term performance",
+          "Valuation metrics subject to market-wide multiple compression"
+        ]
+      },
+      "timestamp": "2025-10-20T08:44:01.727273"
+    },
+    {
+      "ticker": "TECH",
+      "type": "research_plan",
+      "content": {
+        "ticker": "TECH",
+        "timestamp": "2025-10-20T08:44:01.740548",
+        "historical_analyses": 0,
+        "steps": [
+          {
+            "step": 1,
+            "task": "Collect Financial Data",
+            "description": "Retrieve stock prices, financial ratios, and key metrics",
+            "tools": [
+              "yfinance API"
+            ],
+            "output": "Price history, P/E ratio, market cap, dividend yield"
+          },
+          {
+            "step": 2,
+            "task": "Gather Economic Context",
+            "description": "Fetch macroeconomic indicators affecting markets",
+            "tools": [
+              "FRED API"
+            ],
+            "output": "GDP growth, inflation rate, interest rates"
+          },
+          {
+            "step": 3,
+            "task": "Analyze News Sentiment",
+            "description": "Process recent news articles and extract sentiment",
+            "tools": [
+              "News dataset",
+              "NLP processing"
+            ],
+            "output": "Sentiment scores, key themes, news summary"
+          },
+          {
+            "step": 4,
+            "task": "Perform Fundamental Analysis",
+            "description": "Evaluate company fundamentals and valuation metrics",
+            "tools": [
+              "Financial data",
+              "Ratio analysis"
+            ],
+            "output": "Valuation assessment, financial health score"
+          },
+          {
+            "step": 5,
+            "task": "Synthesize Insights",
+            "description": "Combine all analyses into comprehensive report",
+            "tools": [
+              "All previous outputs"
+            ],
+            "output": "Investment recommendation with confidence score"
+          },
+          {
+            "step": 6,
+            "task": "Self-Evaluate Quality",
+            "description": "Assess analysis quality and identify improvements",
+            "tools": [
+              "Evaluation criteria",
+              "Historical performance"
+            ],
+            "output": "Quality score, improvement suggestions"
+          }
+        ]
+      },
+      "timestamp": "2025-10-20T08:44:01.740557"
+    },
+    {
+      "ticker": "TECH",
+      "type": "stock_data",
+      "content": {
+        "ticker": "TECH",
+        "current_price": 63.0099983215332,
+        "price_change_pct": 25.530505057260395,
+        "avg_volume": 2399399.7230769233,
+        "market_cap": 9810243584,
+        "pe_ratio": 28.771688,
+        "dividend_yield": 52.0,
+        "price_history": [
+          {
+            "Close": 50.194969177246094,
+            "Volume": 2599000
+          },
+          {
+            "Close": 53.040714263916016,
+            "Volume": 1649900
+          },
+          {
+            "Close": 55.227447509765625,
+            "Volume": 2631300
+          },
+          {
+            "Close": 58.38273239135742,
+            "Volume": 4382500
+          },
+          {
+            "Close": 58.692264556884766,
+            "Volume": 2697000
+          },
+          {
+            "Close": 58.462608337402344,
+            "Volume": 2952200
+          },
+          {
+            "Close": 57.78362274169922,
+            "Volume": 2100400
+          },
+          {
+            "Close": 57.623863220214844,
+            "Volume": 1981200
+          },
+          {
+            "Close": 54.648311614990234,
+            "Volume": 2876900
+          },
+          {
+            "Close": 54.80807113647461,
+            "Volume": 1771200
+          },
+          {
+            "Close": 54.79808807373047,
+            "Volume": 1847300
+          },
+          {
+            "Close": 54.55844497680664,
+            "Volume": 2616800
+          },
+          {
+            "Close": 49.79556655883789,
+            "Volume": 6682400
+          },
+          {
+            "Close": 50.07514953613281,
+            "Volume": 3135300
+          },
+          {
+            "Close": 50.34474182128906,
+            "Volume": 1898100
+          },
+          {
+            "Close": 50.07514953613281,
+            "Volume": 1965100
+          },
+          {
+            "Close": 52.75114822387695,
+            "Volume": 2057300
+          },
+          {
+            "Close": 54.62834167480469,
+            "Volume": 1667000
+          },
+          {
+            "Close": 53.6597900390625,
+            "Volume": 1597100
+          },
+          {
+            "Close": 53.519996643066406,
+            "Volume": 1305900
+          },
+          {
+            "Close": 53.290000915527344,
+            "Volume": 1325600
+          },
+          {
+            "Close": 54.869998931884766,
+            "Volume": 1617600
+          },
+          {
+            "Close": 54.33000183105469,
+            "Volume": 1661400
+          },
+          {
+            "Close": 54.0,
+            "Volume": 1872900
+          },
+          {
+            "Close": 57.09000015258789,
+            "Volume": 1442400
+          },
+          {
+            "Close": 56.709999084472656,
+            "Volume": 2317300
+          },
+          {
+            "Close": 56.790000915527344,
+            "Volume": 1870500
+          },
+          {
+            "Close": 56.220001220703125,
+            "Volume": 1813900
+          },
+          {
+            "Close": 54.33000183105469,
+            "Volume": 4028800
+          },
+          {
+            "Close": 54.630001068115234,
+            "Volume": 1720800
+          },
+          {
+            "Close": 53.41999816894531,
+            "Volume": 1738900
+          },
+          {
+            "Close": 53.34000015258789,
+            "Volume": 2340600
+          },
+          {
+            "Close": 52.91999816894531,
+            "Volume": 2402200
+          },
+          {
+            "Close": 54.40999984741211,
+            "Volume": 1745300
+          },
+          {
+            "Close": 54.11000061035156,
+            "Volume": 2427800
+          },
+          {
+            "Close": 54.20000076293945,
+            "Volume": 2229700
+          },
+          {
+            "Close": 50.959999084472656,
+            "Volume": 3130200
+          },
+          {
+            "Close": 53.209999084472656,
+            "Volume": 1846500
+          },
+          {
+            "Close": 51.2599983215332,
+            "Volume": 1982100
+          },
+          {
+            "Close": 51.619998931884766,
+            "Volume": 2006200
+          },
+          {
+            "Close": 51.779998779296875,
+            "Volume": 3987600
+          },
+          {
+            "Close": 51.52000045776367,
+            "Volume": 1819900
+          },
+          {
+            "Close": 52.9900016784668,
+            "Volume": 1647100
+          },
+          {
+            "Close": 53.150001525878906,
+            "Volume": 4477800
+          },
+          {
+            "Close": 53.040000915527344,
+            "Volume": 2437800
+          },
+          {
+            "Close": 52.91999816894531,
+            "Volume": 2392000
+          },
+          {
+            "Close": 51.220001220703125,
+            "Volume": 2320500
+          },
+          {
+            "Close": 50.47999954223633,
+            "Volume": 2461400
+          },
+          {
+            "Close": 51.849998474121094,
+            "Volume": 1695700
+          },
+          {
+            "Close": 52.22999954223633,
+            "Volume": 2974600
+          },
+          {
+            "Close": 55.630001068115234,
+            "Volume": 3640600
+          },
+          {
+            "Close": 59.91999816894531,
+            "Volume": 3836400
+          },
+          {
+            "Close": 62.09000015258789,
+            "Volume": 7247100
+          },
+          {
+            "Close": 62.95000076293945,
+            "Volume": 3493000
+          },
+          {
+            "Close": 61.91999816894531,
+            "Volume": 2820100
+          },
+          {
+            "Close": 59.189998626708984,
+            "Volume": 2549000
+          },
+          {
+            "Close": 60.560001373291016,
+            "Volume": 2095100
+          },
+          {
+            "Close": 59.900001525878906,
+            "Volume": 1630800
+          },
+          {
+            "Close": 58.65999984741211,
+            "Volume": 1600100
+          },
+          {
+            "Close": 59.650001525878906,
+            "Volume": 1565400
+          },
+          {
+            "Close": 59.27000045776367,
+            "Volume": 1691200
+          },
+          {
+            "Close": 59.58000183105469,
+            "Volume": 1351500
+          },
+          {
+            "Close": 61.599998474121094,
+            "Volume": 1797900
+          },
+          {
+            "Close": 61.86000061035156,
+            "Volume": 1991700
+          },
+          {
+            "Close": 63.0099983215332,
+            "Volume": 502082
+          }
+        ],
+        "company_name": "Bio-Techne Corporation"
+      },
+      "timestamp": "2025-10-20T08:44:02.444469"
+    },
+    {
+      "ticker": "TECH",
+      "type": "news_summary",
+      "content": {
+        "step": "summarize",
+        "ticker": "TECH",
+        "total_articles": 5,
+        "avg_sentiment": 0.14,
+        "sentiment_trend": "Neutral",
+        "dominant_category": "General",
+        "key_themes": [
+          "company",
+          "basware",
+          "less",
+          "sales",
+          "net sales"
+        ],
+        "date_range": "2012-07-16 to 2012-09-20",
+        "detailed_sentiment": {
+          "positive_articles": 2,
+          "negative_articles": 1,
+          "neutral_articles": 2
+        }
+      },
+      "timestamp": "2025-10-20T08:44:02.450433"
+    },
+    {
+      "ticker": "TECH",
+      "type": "routed_analysis",
+      "content": {
+        "ticker": "TECH",
+        "timestamp": "2025-10-20T08:44:02.450457",
+        "analyses": [
+          {
+            "agent": "EarningsAnalyzer",
+            "ticker": "TECH",
+            "valuation": "Overvalued",
+            "pe_ratio": 28.771688,
+            "score": 0.4,
+            "analysis": "TECH appears overvalued with P/E ratio of 28.771688"
+          },
+          {
+            "agent": "NewsAnalyzer",
+            "ticker": "TECH",
+            "sentiment_score": 0.14,
+            "trend": "Neutral",
+            "score": 0.5,
+            "analysis": "Neutral news sentiment"
+          },
+          {
+            "agent": "MarketAnalyzer",
+            "ticker": "TECH",
+            "momentum": "Strong upward momentum",
+            "price_change_3m": 25.530505057260395,
+            "score": 0.85,
+            "economic_context": "High interest rates may limit growth",
+            "analysis": "Strong upward momentum with 25.5% 3-month change. High interest rates may limit growth"
+          }
+        ],
+        "aggregate_score": 0.58,
+        "recommendation": "HOLD"
+      },
+      "timestamp": "2025-10-20T08:44:02.450475"
+    },
+    {
+      "ticker": "META",
+      "type": "research_plan",
+      "content": {
+        "ticker": "META",
+        "timestamp": "2025-10-20T08:44:02.450562",
+        "historical_analyses": 0,
+        "steps": [
+          {
+            "step": 1,
+            "task": "Collect Financial Data",
+            "description": "Retrieve stock prices, financial ratios, and key metrics",
+            "tools": [
+              "yfinance API"
+            ],
+            "output": "Price history, P/E ratio, market cap, dividend yield"
+          },
+          {
+            "step": 2,
+            "task": "Gather Economic Context",
+            "description": "Fetch macroeconomic indicators affecting markets",
+            "tools": [
+              "FRED API"
+            ],
+            "output": "GDP growth, inflation rate, interest rates"
+          },
+          {
+            "step": 3,
+            "task": "Analyze News Sentiment",
+            "description": "Process recent news articles and extract sentiment",
+            "tools": [
+              "News dataset",
+              "NLP processing"
+            ],
+            "output": "Sentiment scores, key themes, news summary"
+          },
+          {
+            "step": 4,
+            "task": "Perform Fundamental Analysis",
+            "description": "Evaluate company fundamentals and valuation metrics",
+            "tools": [
+              "Financial data",
+              "Ratio analysis"
+            ],
+            "output": "Valuation assessment, financial health score"
+          },
+          {
+            "step": 5,
+            "task": "Synthesize Insights",
+            "description": "Combine all analyses into comprehensive report",
+            "tools": [
+              "All previous outputs"
+            ],
+            "output": "Investment recommendation with confidence score"
+          },
+          {
+            "step": 6,
+            "task": "Self-Evaluate Quality",
+            "description": "Assess analysis quality and identify improvements",
+            "tools": [
+              "Evaluation criteria",
+              "Historical performance"
+            ],
+            "output": "Quality score, improvement suggestions"
+          }
+        ]
+      },
+      "timestamp": "2025-10-20T08:44:02.450566"
+    },
+    {
+      "ticker": "META",
+      "type": "stock_data",
+      "content": {
+        "ticker": "META",
+        "current_price": 729.5,
+        "price_change_pct": 2.3875348965825873,
+        "avg_volume": 11830539.63076923,
+        "market_cap": 1832607285248,
+        "pe_ratio": 28.833994,
+        "dividend_yield": 28.999999999999996,
+        "price_history": [
+          {
+            "Close": 712.4890747070312,
+            "Volume": 9404400
+          },
+          {
+            "Close": 704.3345947265625,
+            "Volume": 8921100
+          },
+          {
+            "Close": 713.0986938476562,
+            "Volume": 8771600
+          },
+          {
+            "Close": 714.31787109375,
+            "Volume": 10920800
+          },
+          {
+            "Close": 712.1992797851562,
+            "Volume": 8271700
+          },
+          {
+            "Close": 717.14599609375,
+            "Volume": 8715700
+          },
+          {
+            "Close": 699.52783203125,
+            "Volume": 13267000
+          },
+          {
+            "Close": 694.7410888671875,
+            "Volume": 27077300
+          },
+          {
+            "Close": 772.9183349609375,
+            "Volume": 38831100
+          },
+          {
+            "Close": 749.504150390625,
+            "Volume": 19028700
+          },
+          {
+            "Close": 775.8463745117188,
+            "Volume": 15801700
+          },
+          {
+            "Close": 762.945068359375,
+            "Volume": 11640300
+          },
+          {
+            "Close": 771.4692993164062,
+            "Volume": 9733900
+          },
+          {
+            "Close": 761.316162109375,
+            "Volume": 9019700
+          },
+          {
+            "Close": 768.7811279296875,
+            "Volume": 7320800
+          },
+          {
+            "Close": 765.3534545898438,
+            "Volume": 7612000
+          },
+          {
+            "Close": 789.4671630859375,
+            "Volume": 14563100
+          },
+          {
+            "Close": 779.5538940429688,
+            "Volume": 8811800
+          },
+          {
+            "Close": 781.6024780273438,
+            "Volume": 8116200
+          },
+          {
+            "Close": 784.7003784179688,
+            "Volume": 13375400
+          },
+          {
+            "Close": 766.8524169921875,
+            "Volume": 16513700
+          },
+          {
+            "Close": 750.97314453125,
+            "Volume": 12286700
+          },
+          {
+            "Close": 747.2156372070312,
+            "Volume": 11898200
+          },
+          {
+            "Close": 738.6014404296875,
+            "Volume": 8876300
+          },
+          {
+            "Close": 754.2808837890625,
+            "Volume": 10612700
+          },
+          {
+            "Close": 752.7918701171875,
+            "Volume": 6861200
+          },
+          {
+            "Close": 753.5913696289062,
+            "Volume": 7601800
+          },
+          {
+            "Close": 746.8759155273438,
+            "Volume": 8315400
+          },
+          {
+            "Close": 750.6033935546875,
+            "Volume": 7468000
+          },
+          {
+            "Close": 738.2017822265625,
+            "Volume": 9070500
+          },
+          {
+            "Close": 734.6141357421875,
+            "Volume": 9350900
+          },
+          {
+            "Close": 736.5528564453125,
+            "Volume": 7699300
+          },
+          {
+            "Close": 748.1450805664062,
+            "Volume": 11439100
+          },
+          {
+            "Close": 751.9425048828125,
+            "Volume": 9663400
+          },
+          {
+            "Close": 751.7925415039062,
+            "Volume": 13087800
+          },
+          {
+            "Close": 765.1835327148438,
+            "Volume": 10999000
+          },
+          {
+            "Close": 751.4727783203125,
+            "Volume": 12478300
+          },
+          {
+            "Close": 750.3935546875,
+            "Volume": 7923300
+          },
+          {
+            "Close": 755.0803833007812,
+            "Volume": 8248600
+          },
+          {
+            "Close": 764.1842041015625,
+            "Volume": 10533800
+          },
+          {
+            "Close": 778.4745483398438,
+            "Volume": 11782500
+          },
+          {
+            "Close": 775.19677734375,
+            "Volume": 9400900
+          },
+          {
+            "Close": 779.7237548828125,
+            "Volume": 10955000
+          },
+          {
+            "Close": 777.85498046875,
+            "Volume": 23696800
+          },
+          {
+            "Close": 765.1599731445312,
+            "Volume": 11706900
+          },
+          {
+            "Close": 755.4000244140625,
+            "Volume": 10872600
+          },
+          {
+            "Close": 760.6599731445312,
+            "Volume": 8828200
+          },
+          {
+            "Close": 748.9099731445312,
+            "Volume": 10591100
+          },
+          {
+            "Close": 743.75,
+            "Volume": 9696300
+          },
+          {
+            "Close": 743.4000244140625,
+            "Volume": 9246800
+          },
+          {
+            "Close": 734.3800048828125,
+            "Volume": 16226800
+          },
+          {
+            "Close": 717.3400268554688,
+            "Volume": 20419600
+          },
+          {
+            "Close": 727.0499877929688,
+            "Volume": 11415300
+          },
+          {
+            "Close": 710.5599975585938,
+            "Volume": 16154300
+          },
+          {
+            "Close": 715.6599731445312,
+            "Volume": 21654700
+          },
+          {
+            "Close": 713.0800170898438,
+            "Volume": 12062900
+          },
+          {
+            "Close": 717.8400268554688,
+            "Volume": 10790600
+          },
+          {
+            "Close": 733.510009765625,
+            "Volume": 12717200
+          },
+          {
+            "Close": 705.2999877929688,
+            "Volume": 16980100
+          },
+          {
+            "Close": 715.7000122070312,
+            "Volume": 9251800
+          },
+          {
+            "Close": 708.6500244140625,
+            "Volume": 8829800
+          },
+          {
+            "Close": 717.5499877929688,
+            "Volume": 10246800
+          },
+          {
+            "Close": 712.0700073242188,
+            "Volume": 9017000
+          },
+          {
+            "Close": 716.9199829101562,
+            "Volume": 12206800
+          },
+          {
+            "Close": 729.5,
+            "Volume": 4101976
+          }
+        ],
+        "company_name": "Meta Platforms, Inc."
+      },
+      "timestamp": "2025-10-20T08:44:03.129661"
+    },
+    {
+      "ticker": "META",
+      "type": "news_summary",
+      "content": {
+        "step": "summarize",
+        "ticker": "META",
+        "total_articles": 1,
+        "avg_sentiment": 0.7,
+        "sentiment_trend": "Positive",
+        "dominant_category": "General",
+        "key_themes": [
+          "sales",
+          "market",
+          "kemira sales",
+          "kemira",
+          "increase kemira"
+        ],
+        "date_range": "2012-10-10 to 2012-10-10",
+        "detailed_sentiment": {
+          "positive_articles": 1,
+          "negative_articles": 0,
+          "neutral_articles": 0
+        }
+      },
+      "timestamp": "2025-10-20T08:44:03.136761"
+    },
+    {
+      "ticker": "META",
+      "type": "routed_analysis",
+      "content": {
+        "ticker": "META",
+        "timestamp": "2025-10-20T08:44:03.136807",
+        "analyses": [
+          {
+            "agent": "EarningsAnalyzer",
+            "ticker": "META",
+            "valuation": "Overvalued",
+            "pe_ratio": 28.833994,
+            "score": 0.4,
+            "analysis": "META appears overvalued with P/E ratio of 28.833994"
+          },
+          {
+            "agent": "NewsAnalyzer",
+            "ticker": "META",
+            "sentiment_score": 0.7,
+            "trend": "Positive",
+            "score": 0.9,
+            "analysis": "Strong positive news momentum"
+          },
+          {
+            "agent": "MarketAnalyzer",
+            "ticker": "META",
+            "momentum": "Sideways momentum",
+            "price_change_3m": 2.3875348965825873,
+            "score": 0.5,
+            "economic_context": "High interest rates may limit growth",
+            "analysis": "Sideways momentum with 2.4% 3-month change. High interest rates may limit growth"
+          }
+        ],
+        "aggregate_score": 0.6,
+        "recommendation": "HOLD"
+      },
+      "timestamp": "2025-10-20T08:44:03.136838"
+    },
+    {
+      "ticker": "TSLA",
+      "type": "research_plan",
+      "content": {
+        "ticker": "TSLA",
+        "timestamp": "2025-10-20T08:44:03.328420",
+        "historical_analyses": 0,
+        "steps": [
+          {
+            "step": 1,
+            "task": "Collect Financial Data",
+            "description": "Retrieve stock prices, financial ratios, and key metrics",
+            "tools": [
+              "yfinance API"
+            ],
+            "output": "Price history, P/E ratio, market cap, dividend yield"
+          },
+          {
+            "step": 2,
+            "task": "Gather Economic Context",
+            "description": "Fetch macroeconomic indicators affecting markets",
+            "tools": [
+              "FRED API"
+            ],
+            "output": "GDP growth, inflation rate, interest rates"
+          },
+          {
+            "step": 3,
+            "task": "Analyze News Sentiment",
+            "description": "Process recent news articles and extract sentiment",
+            "tools": [
+              "News dataset",
+              "NLP processing"
+            ],
+            "output": "Sentiment scores, key themes, news summary"
+          },
+          {
+            "step": 4,
+            "task": "Perform Fundamental Analysis",
+            "description": "Evaluate company fundamentals and valuation metrics",
+            "tools": [
+              "Financial data",
+              "Ratio analysis"
+            ],
+            "output": "Valuation assessment, financial health score"
+          },
+          {
+            "step": 5,
+            "task": "Synthesize Insights",
+            "description": "Combine all analyses into comprehensive report",
+            "tools": [
+              "All previous outputs"
+            ],
+            "output": "Investment recommendation with confidence score"
+          },
+          {
+            "step": 6,
+            "task": "Self-Evaluate Quality",
+            "description": "Assess analysis quality and identify improvements",
+            "tools": [
+              "Evaluation criteria",
+              "Historical performance"
+            ],
+            "output": "Quality score, improvement suggestions"
+          }
+        ]
+      },
+      "timestamp": "2025-10-20T08:44:03.328428"
+    },
+    {
+      "ticker": "TSLA",
+      "type": "stock_data",
+      "content": {
+        "ticker": "TSLA",
+        "current_price": 443.94000244140625,
+        "price_change_pct": 35.14567129569415,
+        "avg_volume": 88119997.98461539,
+        "market_cap": 1476167467008,
+        "pe_ratio": 137.01852,
+        "dividend_yield": 0,
+        "price_history": [
+          {
+            "Close": 328.489990234375,
+            "Volume": 75768800
+          },
+          {
+            "Close": 332.1099853515625,
+            "Volume": 77370400
+          },
+          {
+            "Close": 332.55999755859375,
+            "Volume": 92553800
+          },
+          {
+            "Close": 305.29998779296875,
+            "Volume": 156966000
+          },
+          {
+            "Close": 316.05999755859375,
+            "Volume": 148227000
+          },
+          {
+            "Close": 325.5899963378906,
+            "Volume": 112673800
+          },
+          {
+            "Close": 321.20001220703125,
+            "Volume": 87358900
+          },
+          {
+            "Close": 319.0400085449219,
+            "Volume": 83931900
+          },
+          {
+            "Close": 308.2699890136719,
+            "Volume": 85270900
+          },
+          {
+            "Close": 302.6300048828125,
+            "Volume": 89121400
+          },
+          {
+            "Close": 309.260009765625,
+            "Volume": 78683900
+          },
+          {
+            "Close": 308.7200012207031,
+            "Volume": 57961300
+          },
+          {
+            "Close": 319.9100036621094,
+            "Volume": 78523600
+          },
+          {
+            "Close": 322.2699890136719,
+            "Volume": 66658700
+          },
+          {
+            "Close": 329.6499938964844,
+            "Volume": 91200300
+          },
+          {
+            "Close": 339.0299987792969,
+            "Volume": 105320200
+          },
+          {
+            "Close": 340.8399963378906,
+            "Volume": 80522100
+          },
+          {
+            "Close": 339.3800048828125,
+            "Volume": 67838900
+          },
+          {
+            "Close": 335.5799865722656,
+            "Volume": 75000700
+          },
+          {
+            "Close": 330.55999755859375,
+            "Volume": 74319800
+          },
+          {
+            "Close": 335.1600036621094,
+            "Volume": 56956600
+          },
+          {
+            "Close": 329.30999755859375,
+            "Volume": 75956000
+          },
+          {
+            "Close": 323.8999938964844,
+            "Volume": 77481800
+          },
+          {
+            "Close": 320.1099853515625,
+            "Volume": 55744400
+          },
+          {
+            "Close": 340.010009765625,
+            "Volume": 94016300
+          },
+          {
+            "Close": 346.6000061035156,
+            "Volume": 86670000
+          },
+          {
+            "Close": 351.6700134277344,
+            "Volume": 76651600
+          },
+          {
+            "Close": 349.6000061035156,
+            "Volume": 65519000
+          },
+          {
+            "Close": 345.9800109863281,
+            "Volume": 67903200
+          },
+          {
+            "Close": 333.8699951171875,
+            "Volume": 81145700
+          },
+          {
+            "Close": 329.3599853515625,
+            "Volume": 58392000
+          },
+          {
+            "Close": 334.0899963378906,
+            "Volume": 88733300
+          },
+          {
+            "Close": 338.5299987792969,
+            "Volume": 60711000
+          },
+          {
+            "Close": 350.8399963378906,
+            "Volume": 108989800
+          },
+          {
+            "Close": 346.3999938964844,
+            "Volume": 75208300
+          },
+          {
+            "Close": 346.9700012207031,
+            "Volume": 53816000
+          },
+          {
+            "Close": 347.7900085449219,
+            "Volume": 72121700
+          },
+          {
+            "Close": 368.80999755859375,
+            "Volume": 103756000
+          },
+          {
+            "Close": 395.94000244140625,
+            "Volume": 168156400
+          },
+          {
+            "Close": 410.0400085449219,
+            "Volume": 163823700
+          },
+          {
+            "Close": 421.6199951171875,
+            "Volume": 104285700
+          },
+          {
+            "Close": 425.8599853515625,
+            "Volume": 106133500
+          },
+          {
+            "Close": 416.8500061035156,
+            "Volume": 90454500
+          },
+          {
+            "Close": 426.07000732421875,
+            "Volume": 93131000
+          },
+          {
+            "Close": 434.2099914550781,
+            "Volume": 97108800
+          },
+          {
+            "Close": 425.8500061035156,
+            "Volume": 83422700
+          },
+          {
+            "Close": 442.7900085449219,
+            "Volume": 93133600
+          },
+          {
+            "Close": 423.3900146484375,
+            "Volume": 96746400
+          },
+          {
+            "Close": 440.3999938964844,
+            "Volume": 101628200
+          },
+          {
+            "Close": 443.2099914550781,
+            "Volume": 79491500
+          },
+          {
+            "Close": 444.7200012207031,
+            "Volume": 74358000
+          },
+          {
+            "Close": 459.4599914550781,
+            "Volume": 98122300
+          },
+          {
+            "Close": 436.0,
+            "Volume": 137009000
+          },
+          {
+            "Close": 429.8299865722656,
+            "Volume": 133188200
+          },
+          {
+            "Close": 453.25,
+            "Volume": 85324900
+          },
+          {
+            "Close": 433.0899963378906,
+            "Volume": 102296100
+          },
+          {
+            "Close": 438.69000244140625,
+            "Volume": 71192100
+          },
+          {
+            "Close": 435.5400085449219,
+            "Volume": 69339900
+          },
+          {
+            "Close": 413.489990234375,
+            "Volume": 112107900
+          },
+          {
+            "Close": 435.8999938964844,
+            "Volume": 79552800
+          },
+          {
+            "Close": 429.239990234375,
+            "Volume": 72669400
+          },
+          {
+            "Close": 435.1499938964844,
+            "Volume": 71558200
+          },
+          {
+            "Close": 428.75,
+            "Volume": 77189900
+          },
+          {
+            "Close": 439.30999755859375,
+            "Volume": 89118900
+          },
+          {
+            "Close": 443.94000244140625,
+            "Volume": 32211169
+          }
+        ],
+        "company_name": "Tesla, Inc."
+      },
+      "timestamp": "2025-10-20T08:44:03.991615"
+    },
+    {
+      "ticker": "MACRO",
+      "type": "economic_data",
+      "content": {
+        "gdp_growth": 2.4,
+        "inflation_rate": 3.2,
+        "interest_rate": 5.25,
+        "unemployment_rate": 3.8,
+        "timestamp": "2025-10-20T08:44:03.991920"
+      },
+      "timestamp": "2025-10-20T08:44:03.991932"
+    },
+    {
+      "ticker": "TSLA",
+      "type": "news_summary",
+      "content": {
+        "step": "summarize",
+        "ticker": "TSLA",
+        "total_articles": 0,
+        "avg_sentiment": NaN,
+        "sentiment_trend": "Neutral",
+        "dominant_category": "General",
+        "key_themes": [
+          "earnings",
+          "growth",
+          "market"
+        ],
+        "date_range": "NaT to NaT",
+        "detailed_sentiment": {
+          "positive_articles": 0,
+          "negative_articles": 0,
+          "neutral_articles": 0
+        }
+      },
+      "timestamp": "2025-10-20T08:44:03.995774"
+    },
+    {
+      "ticker": "TSLA",
+      "type": "routed_analysis",
+      "content": {
+        "ticker": "TSLA",
+        "timestamp": "2025-10-20T08:44:03.995824",
+        "analyses": [
+          {
+            "agent": "EarningsAnalyzer",
+            "ticker": "TSLA",
+            "valuation": "Overvalued",
+            "pe_ratio": 137.01852,
+            "score": 0.4,
+            "analysis": "TSLA appears overvalued with P/E ratio of 137.01852"
+          },
+          {
+            "agent": "NewsAnalyzer",
+            "ticker": "TSLA",
+            "sentiment_score": NaN,
+            "trend": "Neutral",
+            "score": 0.1,
+            "analysis": "Strong negative news momentum"
+          },
+          {
+            "agent": "MarketAnalyzer",
+            "ticker": "TSLA",
+            "momentum": "Strong upward momentum",
+            "price_change_3m": 35.14567129569415,
+            "score": 0.85,
+            "economic_context": "High interest rates may limit growth",
+            "analysis": "Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth"
+          }
+        ],
+        "aggregate_score": 0.45,
+        "recommendation": "SELL"
+      },
+      "timestamp": "2025-10-20T08:44:03.995840"
+    },
+    {
+      "ticker": "TSLA",
+      "type": "optimized_analysis",
+      "content": {
+        "ticker": "TSLA",
+        "final_analysis": {
+          "ticker": "TSLA",
+          "iteration": 3,
+          "recommendation": "SELL",
+          "aggregate_score": 0.45,
+          "content": "Comprehensive Investment Analysis for TSLA:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $443.94\n\u2022 P/E Ratio: 137.01852\n\u2022 Market Cap: 1476167467008\n\u2022 3-Month Return: 35.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: TSLA appears overvalued with P/E ratio of 137.01852\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+        },
+        "final_evaluation": {
+          "overall_score": 1.0,
+          "dimension_scores": {
+            "completeness": 1.0,
+            "data_support": 1.0,
+            "clarity": 1.0,
+            "actionability": 1.0,
+            "risk_assessment": 1.0
+          },
+          "feedback": [],
+          "quality_level": "High",
+          "timestamp": "2025-10-20T08:44:03.996057"
+        },
+        "quality_history": [
+          {
+            "overall_score": 0.54,
+            "dimension_scores": {
+              "completeness": 0.0,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 0.28,
+              "risk_assessment": 0.3
+            },
+            "feedback": [
+              "Analysis should include valuation, sentiment, and momentum aspects",
+              "Expand reasoning and provide more context",
+              "Include risk factors and potential concerns"
+            ],
+            "quality_level": "Low",
+            "timestamp": "2025-10-20T08:44:03.995891"
+          },
+          {
+            "overall_score": 0.66,
+            "dimension_scores": {
+              "completeness": 0.33,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 0.46,
+              "risk_assessment": 0.3
+            },
+            "feedback": [
+              "Analysis should include valuation, sentiment, and momentum aspects",
+              "Expand reasoning and provide more context",
+              "Include risk factors and potential concerns"
+            ],
+            "quality_level": "Medium",
+            "timestamp": "2025-10-20T08:44:03.995947"
+          },
+          {
+            "overall_score": 1.0,
+            "dimension_scores": {
+              "completeness": 1.0,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 1.0,
+              "risk_assessment": 1.0
+            },
+            "feedback": [],
+            "quality_level": "High",
+            "timestamp": "2025-10-20T08:44:03.996057"
+          }
+        ],
+        "iterations": 3,
+        "converged": true
+      },
+      "timestamp": "2025-10-20T08:44:03.996079"
+    }
+  ],
+  "long_term": {
+    "AAPL": [
+      {
+        "ticker": "AAPL",
+        "type": "research_plan",
+        "content": {
+          "ticker": "AAPL",
+          "timestamp": "2025-10-20T08:43:59.808779",
+          "historical_analyses": 0,
+          "steps": [
+            {
+              "step": 1,
+              "task": "Collect Financial Data",
+              "description": "Retrieve stock prices, financial ratios, and key metrics",
+              "tools": [
+                "yfinance API"
+              ],
+              "output": "Price history, P/E ratio, market cap, dividend yield"
+            },
+            {
+              "step": 2,
+              "task": "Gather Economic Context",
+              "description": "Fetch macroeconomic indicators affecting markets",
+              "tools": [
+                "FRED API"
+              ],
+              "output": "GDP growth, inflation rate, interest rates"
+            },
+            {
+              "step": 3,
+              "task": "Analyze News Sentiment",
+              "description": "Process recent news articles and extract sentiment",
+              "tools": [
+                "News dataset",
+                "NLP processing"
+              ],
+              "output": "Sentiment scores, key themes, news summary"
+            },
+            {
+              "step": 4,
+              "task": "Perform Fundamental Analysis",
+              "description": "Evaluate company fundamentals and valuation metrics",
+              "tools": [
+                "Financial data",
+                "Ratio analysis"
+              ],
+              "output": "Valuation assessment, financial health score"
+            },
+            {
+              "step": 5,
+              "task": "Synthesize Insights",
+              "description": "Combine all analyses into comprehensive report",
+              "tools": [
+                "All previous outputs"
+              ],
+              "output": "Investment recommendation with confidence score"
+            },
+            {
+              "step": 6,
+              "task": "Self-Evaluate Quality",
+              "description": "Assess analysis quality and identify improvements",
+              "tools": [
+                "Evaluation criteria",
+                "Historical performance"
+              ],
+              "output": "Quality score, improvement suggestions"
+            }
+          ]
+        },
+        "timestamp": "2025-10-20T08:43:59.808785"
+      },
+      {
+        "ticker": "AAPL",
+        "type": "stock_data",
+        "content": {
+          "ticker": "AAPL",
+          "current_price": 263.4849853515625,
+          "price_change_pct": 24.145343587669345,
+          "avg_volume": 54200229.93846154,
+          "market_cap": 3910264684544,
+          "pe_ratio": 31.70734,
+          "dividend_yield": 41.0,
+          "price_history": [
+            {
+              "Close": 212.23912048339844,
+              "Volume": 51377400
+            },
+            {
+              "Close": 214.15695190429688,
+              "Volume": 46404100
+            },
+            {
+              "Close": 213.9072265625,
+              "Volume": 46989300
+            },
+            {
+              "Close": 213.51766967773438,
+              "Volume": 46022600
+            },
+            {
+              "Close": 213.63754272460938,
+              "Volume": 40268800
+            },
+            {
+              "Close": 213.80735778808594,
+              "Volume": 37858000
+            },
+            {
+              "Close": 211.03050231933594,
+              "Volume": 51411700
+            },
+            {
+              "Close": 208.81301879882812,
+              "Volume": 45512500
+            },
+            {
+              "Close": 207.33470153808594,
+              "Volume": 80698400
+            },
+            {
+              "Close": 202.1505889892578,
+              "Volume": 104434500
+            },
+            {
+              "Close": 203.11949157714844,
+              "Volume": 75109300
+            },
+            {
+              "Close": 202.68995666503906,
+              "Volume": 44155100
+            },
+            {
+              "Close": 213.0082550048828,
+              "Volume": 108483100
+            },
+            {
+              "Close": 219.7805633544922,
+              "Volume": 90224800
+            },
+            {
+              "Close": 229.0900115966797,
+              "Volume": 113854000
+            },
+            {
+              "Close": 227.17999267578125,
+              "Volume": 61806100
+            },
+            {
+              "Close": 229.64999389648438,
+              "Volume": 55626200
+            },
+            {
+              "Close": 233.3300018310547,
+              "Volume": 69878500
+            },
+            {
+              "Close": 232.77999877929688,
+              "Volume": 51916300
+            },
+            {
+              "Close": 231.58999633789062,
+              "Volume": 56038700
+            },
+            {
+              "Close": 230.88999938964844,
+              "Volume": 37476200
+            },
+            {
+              "Close": 230.55999755859375,
+              "Volume": 39402600
+            },
+            {
+              "Close": 226.00999450683594,
+              "Volume": 42263900
+            },
+            {
+              "Close": 224.89999389648438,
+              "Volume": 30621200
+            },
+            {
+              "Close": 227.75999450683594,
+              "Volume": 42477800
+            },
+            {
+              "Close": 227.16000366210938,
+              "Volume": 30983100
+            },
+            {
+              "Close": 229.30999755859375,
+              "Volume": 54575100
+            },
+            {
+              "Close": 230.49000549316406,
+              "Volume": 31259500
+            },
+            {
+              "Close": 232.55999755859375,
+              "Volume": 38074700
+            },
+            {
+              "Close": 232.13999938964844,
+              "Volume": 39418400
+            },
+            {
+              "Close": 229.72000122070312,
+              "Volume": 44075600
+            },
+            {
+              "Close": 238.47000122070312,
+              "Volume": 66427800
+            },
+            {
+              "Close": 239.77999877929688,
+              "Volume": 47549400
+            },
+            {
+              "Close": 239.69000244140625,
+              "Volume": 54870400
+            },
+            {
+              "Close": 237.8800048828125,
+              "Volume": 48999500
+            },
+            {
+              "Close": 234.35000610351562,
+              "Volume": 66313900
+            },
+            {
+              "Close": 226.7899932861328,
+              "Volume": 83440800
+            },
+            {
+              "Close": 230.02999877929688,
+              "Volume": 50208600
+            },
+            {
+              "Close": 234.07000732421875,
+              "Volume": 55824200
+            },
+            {
+              "Close": 236.6999969482422,
+              "Volume": 42699500
+            },
+            {
+              "Close": 238.14999389648438,
+              "Volume": 63421100
+            },
+            {
+              "Close": 238.99000549316406,
+              "Volume": 46508000
+            },
+            {
+              "Close": 237.8800048828125,
+              "Volume": 44249600
+            },
+            {
+              "Close": 245.5,
+              "Volume": 163741300
+            },
+            {
+              "Close": 256.0799865722656,
+              "Volume": 105517400
+            },
+            {
+              "Close": 254.42999267578125,
+              "Volume": 60275200
+            },
+            {
+              "Close": 252.30999755859375,
+              "Volume": 42303700
+            },
+            {
+              "Close": 256.8699951171875,
+              "Volume": 55202100
+            },
+            {
+              "Close": 255.4600067138672,
+              "Volume": 46076300
+            },
+            {
+              "Close": 254.42999267578125,
+              "Volume": 40127700
+            },
+            {
+              "Close": 254.6300048828125,
+              "Volume": 37704300
+            },
+            {
+              "Close": 255.4499969482422,
+              "Volume": 48713900
+            },
+            {
+              "Close": 257.1300048828125,
+              "Volume": 42630200
+            },
+            {
+              "Close": 258.0199890136719,
+              "Volume": 49155600
+            },
+            {
+              "Close": 256.69000244140625,
+              "Volume": 44664100
+            },
+            {
+              "Close": 256.4800109863281,
+              "Volume": 31955800
+            },
+            {
+              "Close": 258.05999755859375,
+              "Volume": 36496900
+            },
+            {
+              "Close": 254.0399932861328,
+              "Volume": 38322000
+            },
+            {
+              "Close": 245.27000427246094,
+              "Volume": 61999100
+            },
+            {
+              "Close": 247.66000366210938,
+              "Volume": 38142900
+            },
+            {
+              "Close": 247.77000427246094,
+              "Volume": 35478000
+            },
+            {
+              "Close": 249.33999633789062,
+              "Volume": 33893600
+            },
+            {
+              "Close": 247.4499969482422,
+              "Volume": 39777000
+            },
+            {
+              "Close": 252.2899932861328,
+              "Volume": 48876500
+            },
+            {
+              "Close": 263.4849853515625,
+              "Volume": 42751046
+            }
+          ],
+          "company_name": "Apple Inc."
+        },
+        "timestamp": "2025-10-20T08:44:01.380121"
+      },
+      {
+        "ticker": "AAPL",
+        "type": "news_summary",
+        "content": {
+          "step": "summarize",
+          "ticker": "AAPL",
+          "total_articles": 0,
+          "avg_sentiment": NaN,
+          "sentiment_trend": "Neutral",
+          "dominant_category": "General",
+          "key_themes": [
+            "earnings",
+            "growth",
+            "market"
+          ],
+          "date_range": "NaT to NaT",
+          "detailed_sentiment": {
+            "positive_articles": 0,
+            "negative_articles": 0,
+            "neutral_articles": 0
+          }
+        },
+        "timestamp": "2025-10-20T08:44:01.551311"
+      },
+      {
+        "ticker": "AAPL",
+        "type": "routed_analysis",
+        "content": {
+          "ticker": "AAPL",
+          "timestamp": "2025-10-20T08:44:01.584945",
+          "analyses": [
+            {
+              "agent": "EarningsAnalyzer",
+              "ticker": "AAPL",
+              "valuation": "Overvalued",
+              "pe_ratio": 31.70734,
+              "score": 0.4,
+              "analysis": "AAPL appears overvalued with P/E ratio of 31.70734"
+            },
+            {
+              "agent": "NewsAnalyzer",
+              "ticker": "AAPL",
+              "sentiment_score": NaN,
+              "trend": "Neutral",
+              "score": 0.1,
+              "analysis": "Strong negative news momentum"
+            },
+            {
+              "agent": "MarketAnalyzer",
+              "ticker": "AAPL",
+              "momentum": "Strong upward momentum",
+              "price_change_3m": 24.145343587669345,
+              "score": 0.85,
+              "economic_context": "High interest rates may limit growth",
+              "analysis": "Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth"
+            }
+          ],
+          "aggregate_score": 0.45,
+          "recommendation": "SELL"
+        },
+        "timestamp": "2025-10-20T08:44:01.585009"
+      },
+      {
+        "ticker": "AAPL",
+        "type": "optimized_analysis",
+        "content": {
+          "ticker": "AAPL",
+          "final_analysis": {
+            "ticker": "AAPL",
+            "iteration": 3,
+            "recommendation": "SELL",
+            "aggregate_score": 0.45,
+            "content": "Comprehensive Investment Analysis for AAPL:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $263.48\n\u2022 P/E Ratio: 31.70734\n\u2022 Market Cap: 3910264684544\n\u2022 3-Month Return: 24.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: AAPL appears overvalued with P/E ratio of 31.70734\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+          },
+          "final_evaluation": {
+            "overall_score": 1.0,
+            "dimension_scores": {
+              "completeness": 1.0,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 1.0,
+              "risk_assessment": 1.0
+            },
+            "feedback": [],
+            "quality_level": "High",
+            "timestamp": "2025-10-20T08:44:01.599456"
+          },
+          "quality_history": [
+            {
+              "overall_score": 0.54,
+              "dimension_scores": {
+                "completeness": 0.0,
+                "data_support": 1.0,
+                "clarity": 1.0,
+                "actionability": 0.28,
+                "risk_assessment": 0.3
+              },
+              "feedback": [
+                "Analysis should include valuation, sentiment, and momentum aspects",
+                "Expand reasoning and provide more context",
+                "Include risk factors and potential concerns"
+              ],
+              "quality_level": "Low",
+              "timestamp": "2025-10-20T08:44:01.599266"
+            },
+            {
+              "overall_score": 0.66,
+              "dimension_scores": {
+                "completeness": 0.33,
+                "data_support": 1.0,
+                "clarity": 1.0,
+                "actionability": 0.46,
+                "risk_assessment": 0.3
+              },
+              "feedback": [
+                "Analysis should include valuation, sentiment, and momentum aspects",
+                "Expand reasoning and provide more context",
+                "Include risk factors and potential concerns"
+              ],
+              "quality_level": "Medium",
+              "timestamp": "2025-10-20T08:44:01.599342"
+            },
+            {
+              "overall_score": 1.0,
+              "dimension_scores": {
+                "completeness": 1.0,
+                "data_support": 1.0,
+                "clarity": 1.0,
+                "actionability": 1.0,
+                "risk_assessment": 1.0
+              },
+              "feedback": [],
+              "quality_level": "High",
+              "timestamp": "2025-10-20T08:44:01.599456"
+            }
+          ],
+          "iterations": 3,
+          "converged": true
+        },
+        "timestamp": "2025-10-20T08:44:01.599478"
+      },
+      {
+        "ticker": "AAPL",
+        "type": "final_report",
+        "content": {
+          "ticker": "AAPL",
+          "company_name": "Apple Inc.",
+          "generated_at": "2025-10-20 08:44:01",
+          "recommendation": "SELL",
+          "confidence_score": 0.45,
+          "executive_summary": {
+            "recommendation": "SELL",
+            "price_target_rationale": "Based on 0 news articles and fundamental analysis",
+            "key_drivers": [
+              "Neutral news sentiment (nan)",
+              "3-month price momentum: 24.1%",
+              "Valuation: P/E ratio of 31.70734"
+            ]
+          },
+          "financial_metrics": {
+            "current_price": 263.4849853515625,
+            "market_cap": 3910264684544,
+            "pe_ratio": 31.70734,
+            "dividend_yield": 41.0,
+            "three_month_return": 24.145343587669345
+          },
+          "sentiment_analysis": {
+            "overall_sentiment": "Neutral",
+            "sentiment_score": NaN,
+            "articles_analyzed": 0,
+            "positive_articles": 0,
+            "negative_articles": 0,
+            "key_themes": [
+              "earnings",
+              "growth",
+              "market"
+            ]
+          },
+          "specialist_insights": [
+            {
+              "specialist": "EarningsAnalyzer",
+              "finding": "AAPL appears overvalued with P/E ratio of 31.70734",
+              "confidence": 0.4
+            },
+            {
+              "specialist": "NewsAnalyzer",
+              "finding": "Strong negative news momentum",
+              "confidence": 0.1
+            },
+            {
+              "specialist": "MarketAnalyzer",
+              "finding": "Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth",
+              "confidence": 0.85
+            }
+          ],
+          "quality_metrics": {
+            "analysis_quality_score": 1.0,
+            "iterations_to_converge": 3,
+            "quality_level": "High"
+          },
+          "risk_factors": [
+            "Market conditions: Inflation at 3.2%, rates at 5.25%",
+            "News sentiment volatility may impact short-term performance",
+            "Valuation metrics subject to market-wide multiple compression"
+          ]
+        },
+        "timestamp": "2025-10-20T08:44:01.727273"
+      }
+    ],
+    "TSLA": [
+      {
+        "ticker": "TSLA",
+        "type": "research_plan",
+        "content": {
+          "ticker": "TSLA",
+          "timestamp": "2025-10-20T08:44:03.328420",
+          "historical_analyses": 0,
+          "steps": [
+            {
+              "step": 1,
+              "task": "Collect Financial Data",
+              "description": "Retrieve stock prices, financial ratios, and key metrics",
+              "tools": [
+                "yfinance API"
+              ],
+              "output": "Price history, P/E ratio, market cap, dividend yield"
+            },
+            {
+              "step": 2,
+              "task": "Gather Economic Context",
+              "description": "Fetch macroeconomic indicators affecting markets",
+              "tools": [
+                "FRED API"
+              ],
+              "output": "GDP growth, inflation rate, interest rates"
+            },
+            {
+              "step": 3,
+              "task": "Analyze News Sentiment",
+              "description": "Process recent news articles and extract sentiment",
+              "tools": [
+                "News dataset",
+                "NLP processing"
+              ],
+              "output": "Sentiment scores, key themes, news summary"
+            },
+            {
+              "step": 4,
+              "task": "Perform Fundamental Analysis",
+              "description": "Evaluate company fundamentals and valuation metrics",
+              "tools": [
+                "Financial data",
+                "Ratio analysis"
+              ],
+              "output": "Valuation assessment, financial health score"
+            },
+            {
+              "step": 5,
+              "task": "Synthesize Insights",
+              "description": "Combine all analyses into comprehensive report",
+              "tools": [
+                "All previous outputs"
+              ],
+              "output": "Investment recommendation with confidence score"
+            },
+            {
+              "step": 6,
+              "task": "Self-Evaluate Quality",
+              "description": "Assess analysis quality and identify improvements",
+              "tools": [
+                "Evaluation criteria",
+                "Historical performance"
+              ],
+              "output": "Quality score, improvement suggestions"
+            }
+          ]
+        },
+        "timestamp": "2025-10-20T08:44:03.328428"
+      },
+      {
+        "ticker": "TSLA",
+        "type": "stock_data",
+        "content": {
+          "ticker": "TSLA",
+          "current_price": 443.94000244140625,
+          "price_change_pct": 35.14567129569415,
+          "avg_volume": 88119997.98461539,
+          "market_cap": 1476167467008,
+          "pe_ratio": 137.01852,
+          "dividend_yield": 0,
+          "price_history": [
+            {
+              "Close": 328.489990234375,
+              "Volume": 75768800
+            },
+            {
+              "Close": 332.1099853515625,
+              "Volume": 77370400
+            },
+            {
+              "Close": 332.55999755859375,
+              "Volume": 92553800
+            },
+            {
+              "Close": 305.29998779296875,
+              "Volume": 156966000
+            },
+            {
+              "Close": 316.05999755859375,
+              "Volume": 148227000
+            },
+            {
+              "Close": 325.5899963378906,
+              "Volume": 112673800
+            },
+            {
+              "Close": 321.20001220703125,
+              "Volume": 87358900
+            },
+            {
+              "Close": 319.0400085449219,
+              "Volume": 83931900
+            },
+            {
+              "Close": 308.2699890136719,
+              "Volume": 85270900
+            },
+            {
+              "Close": 302.6300048828125,
+              "Volume": 89121400
+            },
+            {
+              "Close": 309.260009765625,
+              "Volume": 78683900
+            },
+            {
+              "Close": 308.7200012207031,
+              "Volume": 57961300
+            },
+            {
+              "Close": 319.9100036621094,
+              "Volume": 78523600
+            },
+            {
+              "Close": 322.2699890136719,
+              "Volume": 66658700
+            },
+            {
+              "Close": 329.6499938964844,
+              "Volume": 91200300
+            },
+            {
+              "Close": 339.0299987792969,
+              "Volume": 105320200
+            },
+            {
+              "Close": 340.8399963378906,
+              "Volume": 80522100
+            },
+            {
+              "Close": 339.3800048828125,
+              "Volume": 67838900
+            },
+            {
+              "Close": 335.5799865722656,
+              "Volume": 75000700
+            },
+            {
+              "Close": 330.55999755859375,
+              "Volume": 74319800
+            },
+            {
+              "Close": 335.1600036621094,
+              "Volume": 56956600
+            },
+            {
+              "Close": 329.30999755859375,
+              "Volume": 75956000
+            },
+            {
+              "Close": 323.8999938964844,
+              "Volume": 77481800
+            },
+            {
+              "Close": 320.1099853515625,
+              "Volume": 55744400
+            },
+            {
+              "Close": 340.010009765625,
+              "Volume": 94016300
+            },
+            {
+              "Close": 346.6000061035156,
+              "Volume": 86670000
+            },
+            {
+              "Close": 351.6700134277344,
+              "Volume": 76651600
+            },
+            {
+              "Close": 349.6000061035156,
+              "Volume": 65519000
+            },
+            {
+              "Close": 345.9800109863281,
+              "Volume": 67903200
+            },
+            {
+              "Close": 333.8699951171875,
+              "Volume": 81145700
+            },
+            {
+              "Close": 329.3599853515625,
+              "Volume": 58392000
+            },
+            {
+              "Close": 334.0899963378906,
+              "Volume": 88733300
+            },
+            {
+              "Close": 338.5299987792969,
+              "Volume": 60711000
+            },
+            {
+              "Close": 350.8399963378906,
+              "Volume": 108989800
+            },
+            {
+              "Close": 346.3999938964844,
+              "Volume": 75208300
+            },
+            {
+              "Close": 346.9700012207031,
+              "Volume": 53816000
+            },
+            {
+              "Close": 347.7900085449219,
+              "Volume": 72121700
+            },
+            {
+              "Close": 368.80999755859375,
+              "Volume": 103756000
+            },
+            {
+              "Close": 395.94000244140625,
+              "Volume": 168156400
+            },
+            {
+              "Close": 410.0400085449219,
+              "Volume": 163823700
+            },
+            {
+              "Close": 421.6199951171875,
+              "Volume": 104285700
+            },
+            {
+              "Close": 425.8599853515625,
+              "Volume": 106133500
+            },
+            {
+              "Close": 416.8500061035156,
+              "Volume": 90454500
+            },
+            {
+              "Close": 426.07000732421875,
+              "Volume": 93131000
+            },
+            {
+              "Close": 434.2099914550781,
+              "Volume": 97108800
+            },
+            {
+              "Close": 425.8500061035156,
+              "Volume": 83422700
+            },
+            {
+              "Close": 442.7900085449219,
+              "Volume": 93133600
+            },
+            {
+              "Close": 423.3900146484375,
+              "Volume": 96746400
+            },
+            {
+              "Close": 440.3999938964844,
+              "Volume": 101628200
+            },
+            {
+              "Close": 443.2099914550781,
+              "Volume": 79491500
+            },
+            {
+              "Close": 444.7200012207031,
+              "Volume": 74358000
+            },
+            {
+              "Close": 459.4599914550781,
+              "Volume": 98122300
+            },
+            {
+              "Close": 436.0,
+              "Volume": 137009000
+            },
+            {
+              "Close": 429.8299865722656,
+              "Volume": 133188200
+            },
+            {
+              "Close": 453.25,
+              "Volume": 85324900
+            },
+            {
+              "Close": 433.0899963378906,
+              "Volume": 102296100
+            },
+            {
+              "Close": 438.69000244140625,
+              "Volume": 71192100
+            },
+            {
+              "Close": 435.5400085449219,
+              "Volume": 69339900
+            },
+            {
+              "Close": 413.489990234375,
+              "Volume": 112107900
+            },
+            {
+              "Close": 435.8999938964844,
+              "Volume": 79552800
+            },
+            {
+              "Close": 429.239990234375,
+              "Volume": 72669400
+            },
+            {
+              "Close": 435.1499938964844,
+              "Volume": 71558200
+            },
+            {
+              "Close": 428.75,
+              "Volume": 77189900
+            },
+            {
+              "Close": 439.30999755859375,
+              "Volume": 89118900
+            },
+            {
+              "Close": 443.94000244140625,
+              "Volume": 32211169
+            }
+          ],
+          "company_name": "Tesla, Inc."
+        },
+        "timestamp": "2025-10-20T08:44:03.991615"
+      },
+      {
+        "ticker": "TSLA",
+        "type": "news_summary",
+        "content": {
+          "step": "summarize",
+          "ticker": "TSLA",
+          "total_articles": 0,
+          "avg_sentiment": NaN,
+          "sentiment_trend": "Neutral",
+          "dominant_category": "General",
+          "key_themes": [
+            "earnings",
+            "growth",
+            "market"
+          ],
+          "date_range": "NaT to NaT",
+          "detailed_sentiment": {
+            "positive_articles": 0,
+            "negative_articles": 0,
+            "neutral_articles": 0
+          }
+        },
+        "timestamp": "2025-10-20T08:44:03.995774"
+      },
+      {
+        "ticker": "TSLA",
+        "type": "routed_analysis",
+        "content": {
+          "ticker": "TSLA",
+          "timestamp": "2025-10-20T08:44:03.995824",
+          "analyses": [
+            {
+              "agent": "EarningsAnalyzer",
+              "ticker": "TSLA",
+              "valuation": "Overvalued",
+              "pe_ratio": 137.01852,
+              "score": 0.4,
+              "analysis": "TSLA appears overvalued with P/E ratio of 137.01852"
+            },
+            {
+              "agent": "NewsAnalyzer",
+              "ticker": "TSLA",
+              "sentiment_score": NaN,
+              "trend": "Neutral",
+              "score": 0.1,
+              "analysis": "Strong negative news momentum"
+            },
+            {
+              "agent": "MarketAnalyzer",
+              "ticker": "TSLA",
+              "momentum": "Strong upward momentum",
+              "price_change_3m": 35.14567129569415,
+              "score": 0.85,
+              "economic_context": "High interest rates may limit growth",
+              "analysis": "Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth"
+            }
+          ],
+          "aggregate_score": 0.45,
+          "recommendation": "SELL"
+        },
+        "timestamp": "2025-10-20T08:44:03.995840"
+      },
+      {
+        "ticker": "TSLA",
+        "type": "optimized_analysis",
+        "content": {
+          "ticker": "TSLA",
+          "final_analysis": {
+            "ticker": "TSLA",
+            "iteration": 3,
+            "recommendation": "SELL",
+            "aggregate_score": 0.45,
+            "content": "Comprehensive Investment Analysis for TSLA:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $443.94\n\u2022 P/E Ratio: 137.01852\n\u2022 Market Cap: 1476167467008\n\u2022 3-Month Return: 35.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: TSLA appears overvalued with P/E ratio of 137.01852\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+          },
+          "final_evaluation": {
+            "overall_score": 1.0,
+            "dimension_scores": {
+              "completeness": 1.0,
+              "data_support": 1.0,
+              "clarity": 1.0,
+              "actionability": 1.0,
+              "risk_assessment": 1.0
+            },
+            "feedback": [],
+            "quality_level": "High",
+            "timestamp": "2025-10-20T08:44:03.996057"
+          },
+          "quality_history": [
+            {
+              "overall_score": 0.54,
+              "dimension_scores": {
+                "completeness": 0.0,
+                "data_support": 1.0,
+                "clarity": 1.0,
+                "actionability": 0.28,
+                "risk_assessment": 0.3
+              },
+              "feedback": [
+                "Analysis should include valuation, sentiment, and momentum aspects",
+                "Expand reasoning and provide more context",
+                "Include risk factors and potential concerns"
+              ],
+              "quality_level": "Low",
+              "timestamp": "2025-10-20T08:44:03.995891"
+            },
+            {
+              "overall_score": 0.66,
+              "dimension_scores": {
+                "completeness": 0.33,
+                "data_support": 1.0,
+                "clarity": 1.0,
+                "actionability": 0.46,
+                "risk_assessment": 0.3
+              },
+              "feedback": [
+                "Analysis should include valuation, sentiment, and momentum aspects",
+                "Expand reasoning and provide more context",
+                "Include risk factors and potential concerns"
+              ],
+              "quality_level": "Medium",
+              "timestamp": "2025-10-20T08:44:03.995947"
+            },
+            {
+              "overall_score": 1.0,
+              "dimension_scores": {
+                "completeness": 1.0,
+                "data_support": 1.0,
+                "clarity": 1.0,
+                "actionability": 1.0,
+                "risk_assessment": 1.0
+              },
+              "feedback": [],
+              "quality_level": "High",
+              "timestamp": "2025-10-20T08:44:03.996057"
+            }
+          ],
+          "iterations": 3,
+          "converged": true
+        },
+        "timestamp": "2025-10-20T08:44:03.996079"
+      }
+    ]
+  },
+  "performance": [
+    {
+      "ticker": "AAPL",
+      "quality_score": 1.0,
+      "timestamp": "2025-10-20T08:44:01.599480"
+    },
+    {
+      "ticker": "TSLA",
+      "quality_score": 1.0,
+      "timestamp": "2025-10-20T08:44:03.996081"
+    }
+  ],
+  "patterns": {}
+}

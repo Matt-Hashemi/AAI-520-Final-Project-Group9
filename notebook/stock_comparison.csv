@@ -1,0 +1,3 @@
+ticker,company,recommendation,confidence,price,price_change,sentiment,sentiment_trend
+TECH,Bio-Techne Corporation,HOLD,0.58,63.0099983215332,25.530505057260395,0.14,Neutral
+META,"Meta Platforms, Inc.",HOLD,0.6,729.5,2.3875348965825873,0.7,Positive
