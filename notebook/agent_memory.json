@@ -5,7 +5,7 @@
       "type": "research_plan",
       "content": {
         "ticker": "AAPL",
-        "timestamp": "2025-10-20T08:43:59.808779",
+        "timestamp": "2025-10-20T09:28:45.056880",
         "historical_analyses": 0,
         "steps": [
           {
@@ -67,18 +67,18 @@
           }
         ]
       },
-      "timestamp": "2025-10-20T08:43:59.808785"
+      "timestamp": "2025-10-20T09:28:45.056888"
     },
     {
       "ticker": "AAPL",
       "type": "stock_data",
       "content": {
         "ticker": "AAPL",
-        "current_price": 263.4849853515625,
-        "price_change_pct": 24.145343587669345,
-        "avg_volume": 54200229.93846154,
-        "market_cap": 3910264684544,
-        "pe_ratio": 31.70734,
+        "current_price": 263.4750061035156,
+        "price_change_pct": 24.14064169858116,
+        "avg_volume": 54370782.276923075,
+        "market_cap": 3910071746560,
+        "pe_ratio": 31.705776,
         "dividend_yield": 41.0,
         "price_history": [
           {
@@ -338,13 +338,13 @@
             "Volume": 48876500
           },
           {
-            "Close": 263.4849853515625,
-            "Volume": 42751046
+            "Close": 263.4750061035156,
+            "Volume": 53836948
           }
         ],
         "company_name": "Apple Inc."
       },
-      "timestamp": "2025-10-20T08:44:01.380121"
+      "timestamp": "2025-10-20T09:28:47.487416"
     },
     {
       "ticker": "MACRO",
@@ -354,9 +354,9 @@
         "inflation_rate": 3.2,
         "interest_rate": 5.25,
         "unemployment_rate": 3.8,
-        "timestamp": "2025-10-20T08:44:01.380494"
+        "timestamp": "2025-10-20T09:28:47.487834"
       },
-      "timestamp": "2025-10-20T08:44:01.380497"
+      "timestamp": "2025-10-20T09:28:47.487841"
     },
     {
       "ticker": "AAPL",
@@ -380,22 +380,22 @@
           "neutral_articles": 0
         }
       },
-      "timestamp": "2025-10-20T08:44:01.551311"
+      "timestamp": "2025-10-20T09:28:48.401485"
     },
     {
       "ticker": "AAPL",
       "type": "routed_analysis",
       "content": {
         "ticker": "AAPL",
-        "timestamp": "2025-10-20T08:44:01.584945",
+        "timestamp": "2025-10-20T09:28:48.415801",
         "analyses": [
           {
             "agent": "EarningsAnalyzer",
             "ticker": "AAPL",
             "valuation": "Overvalued",
-            "pe_ratio": 31.70734,
+            "pe_ratio": 31.705776,
             "score": 0.4,
-            "analysis": "AAPL appears overvalued with P/E ratio of 31.70734"
+            "analysis": "AAPL appears overvalued with P/E ratio of 31.705776"
           },
           {
             "agent": "NewsAnalyzer",
@@ -409,7 +409,7 @@
             "agent": "MarketAnalyzer",
             "ticker": "AAPL",
             "momentum": "Strong upward momentum",
-            "price_change_3m": 24.145343587669345,
+            "price_change_3m": 24.14064169858116,
             "score": 0.85,
             "economic_context": "High interest rates may limit growth",
             "analysis": "Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth"
@@ -418,7 +418,7 @@
         "aggregate_score": 0.45,
         "recommendation": "SELL"
       },
-      "timestamp": "2025-10-20T08:44:01.585009"
+      "timestamp": "2025-10-20T09:28:48.415828"
     },
     {
       "ticker": "AAPL",
@@ -430,7 +430,7 @@
           "iteration": 3,
           "recommendation": "SELL",
           "aggregate_score": 0.45,
-          "content": "Comprehensive Investment Analysis for AAPL:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $263.48\n\u2022 P/E Ratio: 31.70734\n\u2022 Market Cap: 3910264684544\n\u2022 3-Month Return: 24.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: AAPL appears overvalued with P/E ratio of 31.70734\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+          "content": "Comprehensive Investment Analysis for AAPL:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $263.48\n\u2022 P/E Ratio: 31.705776\n\u2022 Market Cap: 3910071746560\n\u2022 3-Month Return: 24.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: AAPL appears overvalued with P/E ratio of 31.705776\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
         },
         "final_evaluation": {
           "overall_score": 1.0,
@@ -443,7 +443,7 @@
           },
           "feedback": [],
           "quality_level": "High",
-          "timestamp": "2025-10-20T08:44:01.599456"
+          "timestamp": "2025-10-20T09:28:48.492864"
         },
         "quality_history": [
           {
@@ -461,7 +461,7 @@
               "Include risk factors and potential concerns"
             ],
             "quality_level": "Low",
-            "timestamp": "2025-10-20T08:44:01.599266"
+            "timestamp": "2025-10-20T09:28:48.492686"
           },
           {
             "overall_score": 0.66,
@@ -478,7 +478,7 @@
               "Include risk factors and potential concerns"
             ],
             "quality_level": "Medium",
-            "timestamp": "2025-10-20T08:44:01.599342"
+            "timestamp": "2025-10-20T09:28:48.492761"
           },
           {
             "overall_score": 1.0,
@@ -491,13 +491,13 @@
             },
             "feedback": [],
             "quality_level": "High",
-            "timestamp": "2025-10-20T08:44:01.599456"
+            "timestamp": "2025-10-20T09:28:48.492864"
           }
         ],
         "iterations": 3,
         "converged": true
       },
-      "timestamp": "2025-10-20T08:44:01.599478"
+      "timestamp": "2025-10-20T09:28:48.492888"
     },
     {
       "ticker": "AAPL",
@@ -505,7 +505,7 @@
       "content": {
         "ticker": "AAPL",
         "company_name": "Apple Inc.",
-        "generated_at": "2025-10-20 08:44:01",
+        "generated_at": "2025-10-20 09:28:48",
         "recommendation": "SELL",
         "confidence_score": 0.45,
         "executive_summary": {
@@ -514,15 +514,15 @@
           "key_drivers": [
             "Neutral news sentiment (nan)",
             "3-month price momentum: 24.1%",
-            "Valuation: P/E ratio of 31.70734"
+            "Valuation: P/E ratio of 31.705776"
           ]
         },
         "financial_metrics": {
-          "current_price": 263.4849853515625,
-          "market_cap": 3910264684544,
-          "pe_ratio": 31.70734,
+          "current_price": 263.4750061035156,
+          "market_cap": 3910071746560,
+          "pe_ratio": 31.705776,
           "dividend_yield": 41.0,
-          "three_month_return": 24.145343587669345
+          "three_month_return": 24.14064169858116
         },
         "sentiment_analysis": {
           "overall_sentiment": "Neutral",
@@ -539,7 +539,7 @@
         "specialist_insights": [
           {
             "specialist": "EarningsAnalyzer",
-            "finding": "AAPL appears overvalued with P/E ratio of 31.70734",
+            "finding": "AAPL appears overvalued with P/E ratio of 31.705776",
             "confidence": 0.4
           },
           {
@@ -564,14 +564,14 @@
           "Valuation metrics subject to market-wide multiple compression"
         ]
       },
-      "timestamp": "2025-10-20T08:44:01.727273"
+      "timestamp": "2025-10-20T09:28:48.630945"
     },
     {
       "ticker": "TECH",
       "type": "research_plan",
       "content": {
         "ticker": "TECH",
-        "timestamp": "2025-10-20T08:44:01.740548",
+        "timestamp": "2025-10-20T09:28:48.644312",
         "historical_analyses": 0,
         "steps": [
           {
@@ -633,18 +633,18 @@
           }
         ]
       },
-      "timestamp": "2025-10-20T08:44:01.740557"
+      "timestamp": "2025-10-20T09:28:48.644320"
     },
     {
       "ticker": "TECH",
       "type": "stock_data",
       "content": {
         "ticker": "TECH",
-        "current_price": 63.0099983215332,
-        "price_change_pct": 25.530505057260395,
-        "avg_volume": 2399399.7230769233,
-        "market_cap": 9810243584,
-        "pe_ratio": 28.771688,
+        "current_price": 62.720001220703125,
+        "price_change_pct": 24.952763690777918,
+        "avg_volume": 2400739.923076923,
+        "market_cap": 9765092352,
+        "pe_ratio": 28.639269,
         "dividend_yield": 52.0,
         "price_history": [
           {
@@ -904,13 +904,13 @@
             "Volume": 1991700
           },
           {
-            "Close": 63.0099983215332,
-            "Volume": 502082
+            "Close": 62.720001220703125,
+            "Volume": 589195
           }
         ],
         "company_name": "Bio-Techne Corporation"
       },
-      "timestamp": "2025-10-20T08:44:02.444469"
+      "timestamp": "2025-10-20T09:28:49.701478"
     },
     {
       "ticker": "TECH",
@@ -936,22 +936,22 @@
           "neutral_articles": 2
         }
       },
-      "timestamp": "2025-10-20T08:44:02.450433"
+      "timestamp": "2025-10-20T09:28:49.724486"
     },
     {
       "ticker": "TECH",
       "type": "routed_analysis",
       "content": {
         "ticker": "TECH",
-        "timestamp": "2025-10-20T08:44:02.450457",
+        "timestamp": "2025-10-20T09:28:49.724522",
         "analyses": [
           {
             "agent": "EarningsAnalyzer",
             "ticker": "TECH",
             "valuation": "Overvalued",
-            "pe_ratio": 28.771688,
+            "pe_ratio": 28.639269,
             "score": 0.4,
-            "analysis": "TECH appears overvalued with P/E ratio of 28.771688"
+            "analysis": "TECH appears overvalued with P/E ratio of 28.639269"
           },
           {
             "agent": "NewsAnalyzer",
@@ -965,23 +965,23 @@
             "agent": "MarketAnalyzer",
             "ticker": "TECH",
             "momentum": "Strong upward momentum",
-            "price_change_3m": 25.530505057260395,
+            "price_change_3m": 24.952763690777918,
             "score": 0.85,
             "economic_context": "High interest rates may limit growth",
-            "analysis": "Strong upward momentum with 25.5% 3-month change. High interest rates may limit growth"
+            "analysis": "Strong upward momentum with 25.0% 3-month change. High interest rates may limit growth"
           }
         ],
         "aggregate_score": 0.58,
         "recommendation": "HOLD"
       },
-      "timestamp": "2025-10-20T08:44:02.450475"
+      "timestamp": "2025-10-20T09:28:49.724550"
     },
     {
       "ticker": "META",
       "type": "research_plan",
       "content": {
         "ticker": "META",
-        "timestamp": "2025-10-20T08:44:02.450562",
+        "timestamp": "2025-10-20T09:28:49.724700",
         "historical_analyses": 0,
         "steps": [
           {
@@ -1043,18 +1043,18 @@
           }
         ]
       },
-      "timestamp": "2025-10-20T08:44:02.450566"
+      "timestamp": "2025-10-20T09:28:49.724709"
     },
     {
       "ticker": "META",
       "type": "stock_data",
       "content": {
         "ticker": "META",
-        "current_price": 729.5,
-        "price_change_pct": 2.3875348965825873,
-        "avg_volume": 11830539.63076923,
-        "market_cap": 1832607285248,
-        "pe_ratio": 28.833994,
+        "current_price": 731.652099609375,
+        "price_change_pct": 2.6895885961793033,
+        "avg_volume": 11839177.923076924,
+        "market_cap": 1838013612032,
+        "pe_ratio": 28.919056,
         "dividend_yield": 28.999999999999996,
         "price_history": [
           {
@@ -1314,13 +1314,13 @@
             "Volume": 12206800
           },
           {
-            "Close": 729.5,
-            "Volume": 4101976
+            "Close": 731.652099609375,
+            "Volume": 4663465
           }
         ],
         "company_name": "Meta Platforms, Inc."
       },
-      "timestamp": "2025-10-20T08:44:03.129661"
+      "timestamp": "2025-10-20T09:28:50.703339"
     },
     {
       "ticker": "META",
@@ -1346,22 +1346,22 @@
           "neutral_articles": 0
         }
       },
-      "timestamp": "2025-10-20T08:44:03.136761"
+      "timestamp": "2025-10-20T09:28:50.706039"
     },
     {
       "ticker": "META",
       "type": "routed_analysis",
       "content": {
         "ticker": "META",
-        "timestamp": "2025-10-20T08:44:03.136807",
+        "timestamp": "2025-10-20T09:28:50.706061",
         "analyses": [
           {
             "agent": "EarningsAnalyzer",
             "ticker": "META",
             "valuation": "Overvalued",
-            "pe_ratio": 28.833994,
+            "pe_ratio": 28.919056,
             "score": 0.4,
-            "analysis": "META appears overvalued with P/E ratio of 28.833994"
+            "analysis": "META appears overvalued with P/E ratio of 28.919056"
           },
           {
             "agent": "NewsAnalyzer",
@@ -1375,23 +1375,23 @@
             "agent": "MarketAnalyzer",
             "ticker": "META",
             "momentum": "Sideways momentum",
-            "price_change_3m": 2.3875348965825873,
+            "price_change_3m": 2.6895885961793033,
             "score": 0.5,
             "economic_context": "High interest rates may limit growth",
-            "analysis": "Sideways momentum with 2.4% 3-month change. High interest rates may limit growth"
+            "analysis": "Sideways momentum with 2.7% 3-month change. High interest rates may limit growth"
           }
         ],
         "aggregate_score": 0.6,
         "recommendation": "HOLD"
       },
-      "timestamp": "2025-10-20T08:44:03.136838"
+      "timestamp": "2025-10-20T09:28:50.706082"
     },
     {
       "ticker": "TSLA",
       "type": "research_plan",
       "content": {
         "ticker": "TSLA",
-        "timestamp": "2025-10-20T08:44:03.328420",
+        "timestamp": "2025-10-20T09:28:50.935771",
         "historical_analyses": 0,
         "steps": [
           {
@@ -1453,18 +1453,18 @@
           }
         ]
       },
-      "timestamp": "2025-10-20T08:44:03.328428"
+      "timestamp": "2025-10-20T09:28:50.935780"
     },
     {
       "ticker": "TSLA",
       "type": "stock_data",
       "content": {
         "ticker": "TSLA",
-        "current_price": 443.94000244140625,
-        "price_change_pct": 35.14567129569415,
-        "avg_volume": 88119997.98461539,
-        "market_cap": 1476167467008,
-        "pe_ratio": 137.01852,
+        "current_price": 444.3800048828125,
+        "price_change_pct": 35.27961828174761,
+        "avg_volume": 88217219.53846154,
+        "market_cap": 1477464293376,
+        "pe_ratio": 137.13889,
         "dividend_yield": 0,
         "price_history": [
           {
@@ -1724,13 +1724,13 @@
             "Volume": 89118900
           },
           {
-            "Close": 443.94000244140625,
-            "Volume": 32211169
+            "Close": 444.3800048828125,
+            "Volume": 38530570
           }
         ],
         "company_name": "Tesla, Inc."
       },
-      "timestamp": "2025-10-20T08:44:03.991615"
+      "timestamp": "2025-10-20T09:28:51.917472"
     },
     {
       "ticker": "MACRO",
@@ -1740,9 +1740,9 @@
         "inflation_rate": 3.2,
         "interest_rate": 5.25,
         "unemployment_rate": 3.8,
-        "timestamp": "2025-10-20T08:44:03.991920"
+        "timestamp": "2025-10-20T09:28:51.917630"
       },
-      "timestamp": "2025-10-20T08:44:03.991932"
+      "timestamp": "2025-10-20T09:28:51.917641"
     },
     {
       "ticker": "TSLA",
@@ -1766,22 +1766,22 @@
           "neutral_articles": 0
         }
       },
-      "timestamp": "2025-10-20T08:44:03.995774"
+      "timestamp": "2025-10-20T09:28:51.919722"
     },
     {
       "ticker": "TSLA",
       "type": "routed_analysis",
       "content": {
         "ticker": "TSLA",
-        "timestamp": "2025-10-20T08:44:03.995824",
+        "timestamp": "2025-10-20T09:28:51.919775",
         "analyses": [
           {
             "agent": "EarningsAnalyzer",
             "ticker": "TSLA",
             "valuation": "Overvalued",
-            "pe_ratio": 137.01852,
+            "pe_ratio": 137.13889,
             "score": 0.4,
-            "analysis": "TSLA appears overvalued with P/E ratio of 137.01852"
+            "analysis": "TSLA appears overvalued with P/E ratio of 137.13889"
           },
           {
             "agent": "NewsAnalyzer",
@@ -1795,16 +1795,16 @@
             "agent": "MarketAnalyzer",
             "ticker": "TSLA",
             "momentum": "Strong upward momentum",
-            "price_change_3m": 35.14567129569415,
+            "price_change_3m": 35.27961828174761,
             "score": 0.85,
             "economic_context": "High interest rates may limit growth",
-            "analysis": "Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth"
+            "analysis": "Strong upward momentum with 35.3% 3-month change. High interest rates may limit growth"
           }
         ],
         "aggregate_score": 0.45,
         "recommendation": "SELL"
       },
-      "timestamp": "2025-10-20T08:44:03.995840"
+      "timestamp": "2025-10-20T09:28:51.919788"
     },
     {
       "ticker": "TSLA",
@@ -1816,7 +1816,7 @@
           "iteration": 3,
           "recommendation": "SELL",
           "aggregate_score": 0.45,
-          "content": "Comprehensive Investment Analysis for TSLA:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $443.94\n\u2022 P/E Ratio: 137.01852\n\u2022 Market Cap: 1476167467008\n\u2022 3-Month Return: 35.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: TSLA appears overvalued with P/E ratio of 137.01852\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+          "content": "Comprehensive Investment Analysis for TSLA:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $444.38\n\u2022 P/E Ratio: 137.13889\n\u2022 Market Cap: 1477464293376\n\u2022 3-Month Return: 35.3%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: TSLA appears overvalued with P/E ratio of 137.13889\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 35.3% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
         },
         "final_evaluation": {
           "overall_score": 1.0,
@@ -1829,7 +1829,7 @@
           },
           "feedback": [],
           "quality_level": "High",
-          "timestamp": "2025-10-20T08:44:03.996057"
+          "timestamp": "2025-10-20T09:28:51.920011"
         },
         "quality_history": [
           {
@@ -1847,7 +1847,7 @@
               "Include risk factors and potential concerns"
             ],
             "quality_level": "Low",
-            "timestamp": "2025-10-20T08:44:03.995891"
+            "timestamp": "2025-10-20T09:28:51.919841"
           },
           {
             "overall_score": 0.66,
@@ -1864,7 +1864,7 @@
               "Include risk factors and potential concerns"
             ],
             "quality_level": "Medium",
-            "timestamp": "2025-10-20T08:44:03.995947"
+            "timestamp": "2025-10-20T09:28:51.919903"
           },
           {
             "overall_score": 1.0,
@@ -1877,13 +1877,13 @@
             },
             "feedback": [],
             "quality_level": "High",
-            "timestamp": "2025-10-20T08:44:03.996057"
+            "timestamp": "2025-10-20T09:28:51.920011"
           }
         ],
         "iterations": 3,
         "converged": true
       },
-      "timestamp": "2025-10-20T08:44:03.996079"
+      "timestamp": "2025-10-20T09:28:51.920030"
     }
   ],
   "long_term": {
@@ -1893,7 +1893,7 @@
         "type": "research_plan",
         "content": {
           "ticker": "AAPL",
-          "timestamp": "2025-10-20T08:43:59.808779",
+          "timestamp": "2025-10-20T09:28:45.056880",
           "historical_analyses": 0,
           "steps": [
             {
@@ -1955,18 +1955,18 @@
             }
           ]
         },
-        "timestamp": "2025-10-20T08:43:59.808785"
+        "timestamp": "2025-10-20T09:28:45.056888"
       },
       {
         "ticker": "AAPL",
         "type": "stock_data",
         "content": {
           "ticker": "AAPL",
-          "current_price": 263.4849853515625,
-          "price_change_pct": 24.145343587669345,
-          "avg_volume": 54200229.93846154,
-          "market_cap": 3910264684544,
-          "pe_ratio": 31.70734,
+          "current_price": 263.4750061035156,
+          "price_change_pct": 24.14064169858116,
+          "avg_volume": 54370782.276923075,
+          "market_cap": 3910071746560,
+          "pe_ratio": 31.705776,
           "dividend_yield": 41.0,
           "price_history": [
             {
@@ -2226,13 +2226,13 @@
               "Volume": 48876500
             },
             {
-              "Close": 263.4849853515625,
-              "Volume": 42751046
+              "Close": 263.4750061035156,
+              "Volume": 53836948
             }
           ],
           "company_name": "Apple Inc."
         },
-        "timestamp": "2025-10-20T08:44:01.380121"
+        "timestamp": "2025-10-20T09:28:47.487416"
       },
       {
         "ticker": "AAPL",
@@ -2256,22 +2256,22 @@
             "neutral_articles": 0
           }
         },
-        "timestamp": "2025-10-20T08:44:01.551311"
+        "timestamp": "2025-10-20T09:28:48.401485"
       },
       {
         "ticker": "AAPL",
         "type": "routed_analysis",
         "content": {
           "ticker": "AAPL",
-          "timestamp": "2025-10-20T08:44:01.584945",
+          "timestamp": "2025-10-20T09:28:48.415801",
           "analyses": [
             {
               "agent": "EarningsAnalyzer",
               "ticker": "AAPL",
               "valuation": "Overvalued",
-              "pe_ratio": 31.70734,
+              "pe_ratio": 31.705776,
               "score": 0.4,
-              "analysis": "AAPL appears overvalued with P/E ratio of 31.70734"
+              "analysis": "AAPL appears overvalued with P/E ratio of 31.705776"
             },
             {
               "agent": "NewsAnalyzer",
@@ -2285,7 +2285,7 @@
               "agent": "MarketAnalyzer",
               "ticker": "AAPL",
               "momentum": "Strong upward momentum",
-              "price_change_3m": 24.145343587669345,
+              "price_change_3m": 24.14064169858116,
               "score": 0.85,
               "economic_context": "High interest rates may limit growth",
               "analysis": "Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth"
@@ -2294,7 +2294,7 @@
           "aggregate_score": 0.45,
           "recommendation": "SELL"
         },
-        "timestamp": "2025-10-20T08:44:01.585009"
+        "timestamp": "2025-10-20T09:28:48.415828"
       },
       {
         "ticker": "AAPL",
@@ -2306,7 +2306,7 @@
             "iteration": 3,
             "recommendation": "SELL",
             "aggregate_score": 0.45,
-            "content": "Comprehensive Investment Analysis for AAPL:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $263.48\n\u2022 P/E Ratio: 31.70734\n\u2022 Market Cap: 3910264684544\n\u2022 3-Month Return: 24.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: AAPL appears overvalued with P/E ratio of 31.70734\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+            "content": "Comprehensive Investment Analysis for AAPL:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $263.48\n\u2022 P/E Ratio: 31.705776\n\u2022 Market Cap: 3910071746560\n\u2022 3-Month Return: 24.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: AAPL appears overvalued with P/E ratio of 31.705776\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 24.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
           },
           "final_evaluation": {
             "overall_score": 1.0,
@@ -2319,7 +2319,7 @@
             },
             "feedback": [],
             "quality_level": "High",
-            "timestamp": "2025-10-20T08:44:01.599456"
+            "timestamp": "2025-10-20T09:28:48.492864"
           },
           "quality_history": [
             {
@@ -2337,7 +2337,7 @@
                 "Include risk factors and potential concerns"
               ],
               "quality_level": "Low",
-              "timestamp": "2025-10-20T08:44:01.599266"
+              "timestamp": "2025-10-20T09:28:48.492686"
             },
             {
               "overall_score": 0.66,
@@ -2354,7 +2354,7 @@
                 "Include risk factors and potential concerns"
               ],
               "quality_level": "Medium",
-              "timestamp": "2025-10-20T08:44:01.599342"
+              "timestamp": "2025-10-20T09:28:48.492761"
             },
             {
               "overall_score": 1.0,
@@ -2367,13 +2367,13 @@
               },
               "feedback": [],
               "quality_level": "High",
-              "timestamp": "2025-10-20T08:44:01.599456"
+              "timestamp": "2025-10-20T09:28:48.492864"
             }
           ],
           "iterations": 3,
           "converged": true
         },
-        "timestamp": "2025-10-20T08:44:01.599478"
+        "timestamp": "2025-10-20T09:28:48.492888"
       },
       {
         "ticker": "AAPL",
@@ -2381,7 +2381,7 @@
         "content": {
           "ticker": "AAPL",
           "company_name": "Apple Inc.",
-          "generated_at": "2025-10-20 08:44:01",
+          "generated_at": "2025-10-20 09:28:48",
           "recommendation": "SELL",
           "confidence_score": 0.45,
           "executive_summary": {
@@ -2390,15 +2390,15 @@
             "key_drivers": [
               "Neutral news sentiment (nan)",
               "3-month price momentum: 24.1%",
-              "Valuation: P/E ratio of 31.70734"
+              "Valuation: P/E ratio of 31.705776"
             ]
           },
           "financial_metrics": {
-            "current_price": 263.4849853515625,
-            "market_cap": 3910264684544,
-            "pe_ratio": 31.70734,
+            "current_price": 263.4750061035156,
+            "market_cap": 3910071746560,
+            "pe_ratio": 31.705776,
             "dividend_yield": 41.0,
-            "three_month_return": 24.145343587669345
+            "three_month_return": 24.14064169858116
           },
           "sentiment_analysis": {
             "overall_sentiment": "Neutral",
@@ -2415,7 +2415,7 @@
           "specialist_insights": [
             {
               "specialist": "EarningsAnalyzer",
-              "finding": "AAPL appears overvalued with P/E ratio of 31.70734",
+              "finding": "AAPL appears overvalued with P/E ratio of 31.705776",
               "confidence": 0.4
             },
             {
@@ -2440,7 +2440,7 @@
             "Valuation metrics subject to market-wide multiple compression"
           ]
         },
-        "timestamp": "2025-10-20T08:44:01.727273"
+        "timestamp": "2025-10-20T09:28:48.630945"
       }
     ],
     "TSLA": [
@@ -2449,7 +2449,7 @@
         "type": "research_plan",
         "content": {
           "ticker": "TSLA",
-          "timestamp": "2025-10-20T08:44:03.328420",
+          "timestamp": "2025-10-20T09:28:50.935771",
           "historical_analyses": 0,
           "steps": [
             {
@@ -2511,18 +2511,18 @@
             }
           ]
         },
-        "timestamp": "2025-10-20T08:44:03.328428"
+        "timestamp": "2025-10-20T09:28:50.935780"
       },
       {
         "ticker": "TSLA",
         "type": "stock_data",
         "content": {
           "ticker": "TSLA",
-          "current_price": 443.94000244140625,
-          "price_change_pct": 35.14567129569415,
-          "avg_volume": 88119997.98461539,
-          "market_cap": 1476167467008,
-          "pe_ratio": 137.01852,
+          "current_price": 444.3800048828125,
+          "price_change_pct": 35.27961828174761,
+          "avg_volume": 88217219.53846154,
+          "market_cap": 1477464293376,
+          "pe_ratio": 137.13889,
           "dividend_yield": 0,
           "price_history": [
             {
@@ -2782,13 +2782,13 @@
               "Volume": 89118900
             },
             {
-              "Close": 443.94000244140625,
-              "Volume": 32211169
+              "Close": 444.3800048828125,
+              "Volume": 38530570
             }
           ],
           "company_name": "Tesla, Inc."
         },
-        "timestamp": "2025-10-20T08:44:03.991615"
+        "timestamp": "2025-10-20T09:28:51.917472"
       },
       {
         "ticker": "TSLA",
@@ -2812,22 +2812,22 @@
             "neutral_articles": 0
           }
         },
-        "timestamp": "2025-10-20T08:44:03.995774"
+        "timestamp": "2025-10-20T09:28:51.919722"
       },
       {
         "ticker": "TSLA",
         "type": "routed_analysis",
         "content": {
           "ticker": "TSLA",
-          "timestamp": "2025-10-20T08:44:03.995824",
+          "timestamp": "2025-10-20T09:28:51.919775",
           "analyses": [
             {
               "agent": "EarningsAnalyzer",
               "ticker": "TSLA",
               "valuation": "Overvalued",
-              "pe_ratio": 137.01852,
+              "pe_ratio": 137.13889,
               "score": 0.4,
-              "analysis": "TSLA appears overvalued with P/E ratio of 137.01852"
+              "analysis": "TSLA appears overvalued with P/E ratio of 137.13889"
             },
             {
               "agent": "NewsAnalyzer",
@@ -2841,16 +2841,16 @@
               "agent": "MarketAnalyzer",
               "ticker": "TSLA",
               "momentum": "Strong upward momentum",
-              "price_change_3m": 35.14567129569415,
+              "price_change_3m": 35.27961828174761,
               "score": 0.85,
               "economic_context": "High interest rates may limit growth",
-              "analysis": "Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth"
+              "analysis": "Strong upward momentum with 35.3% 3-month change. High interest rates may limit growth"
             }
           ],
           "aggregate_score": 0.45,
           "recommendation": "SELL"
         },
-        "timestamp": "2025-10-20T08:44:03.995840"
+        "timestamp": "2025-10-20T09:28:51.919788"
       },
       {
         "ticker": "TSLA",
@@ -2862,7 +2862,7 @@
             "iteration": 3,
             "recommendation": "SELL",
             "aggregate_score": 0.45,
-            "content": "Comprehensive Investment Analysis for TSLA:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $443.94\n\u2022 P/E Ratio: 137.01852\n\u2022 Market Cap: 1476167467008\n\u2022 3-Month Return: 35.1%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: TSLA appears overvalued with P/E ratio of 137.01852\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 35.1% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
+            "content": "Comprehensive Investment Analysis for TSLA:\n\nRECOMMENDATION: SELL (Confidence: 45%)\n\nVALUATION METRICS:\n\u2022 Current Price: $444.38\n\u2022 P/E Ratio: 137.13889\n\u2022 Market Cap: 1477464293376\n\u2022 3-Month Return: 35.3%\n\nNEWS & SENTIMENT:\n\u2022 Overall Sentiment: Neutral (nan)\n\u2022 Total Articles Analyzed: 0\n\u2022 Key Themes: earnings, growth, market\n\nSPECIALIST INSIGHTS:\n\u2022 EarningsAnalyzer: TSLA appears overvalued with P/E ratio of 137.13889\n\u2022 NewsAnalyzer: Strong negative news momentum\n\u2022 MarketAnalyzer: Strong upward momentum with 35.3% 3-month change. High interest rates may limit growth\n\nRISK FACTORS:\n\u2022 Market volatility may impact short-term performance\n\u2022 Macroeconomic conditions: Inflation at 3.2%, rates at 5.25%\n\u2022 Sentiment risk: Monitor news flow for potential reversals\n"
           },
           "final_evaluation": {
             "overall_score": 1.0,
@@ -2875,7 +2875,7 @@
             },
             "feedback": [],
             "quality_level": "High",
-            "timestamp": "2025-10-20T08:44:03.996057"
+            "timestamp": "2025-10-20T09:28:51.920011"
           },
           "quality_history": [
             {
@@ -2893,7 +2893,7 @@
                 "Include risk factors and potential concerns"
               ],
               "quality_level": "Low",
-              "timestamp": "2025-10-20T08:44:03.995891"
+              "timestamp": "2025-10-20T09:28:51.919841"
             },
             {
               "overall_score": 0.66,
@@ -2910,7 +2910,7 @@
                 "Include risk factors and potential concerns"
               ],
               "quality_level": "Medium",
-              "timestamp": "2025-10-20T08:44:03.995947"
+              "timestamp": "2025-10-20T09:28:51.919903"
             },
             {
               "overall_score": 1.0,
@@ -2923,13 +2923,13 @@
               },
               "feedback": [],
               "quality_level": "High",
-              "timestamp": "2025-10-20T08:44:03.996057"
+              "timestamp": "2025-10-20T09:28:51.920011"
             }
           ],
           "iterations": 3,
           "converged": true
         },
-        "timestamp": "2025-10-20T08:44:03.996079"
+        "timestamp": "2025-10-20T09:28:51.920030"
       }
     ]
   },
@@ -2937,12 +2937,12 @@
     {
       "ticker": "AAPL",
       "quality_score": 1.0,
-      "timestamp": "2025-10-20T08:44:01.599480"
+      "timestamp": "2025-10-20T09:28:48.492890"
     },
     {
       "ticker": "TSLA",
       "quality_score": 1.0,
-      "timestamp": "2025-10-20T08:44:03.996081"
+      "timestamp": "2025-10-20T09:28:51.920033"
     }
   ],
   "patterns": {}
